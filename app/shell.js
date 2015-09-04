@@ -4,7 +4,7 @@ define(['plugins/router', 'durandal/system', ],
         
 
         var r2 = [{ 'route': ['', 'home'], 'title': 'Home', 'moduleId': 'mvvm/home/home', 'nav': true },
-                  { 'route': 'blog',        'title': 'Blog', 'moduleId': 'mvvm/blog/blog', 'nav': true }
+                  { 'route': 'resume', 'title': 'Resume', 'moduleId': 'mvvm/resume/resume', 'nav': true }
         ];
 
         function loadRoutes() {

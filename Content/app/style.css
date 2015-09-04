@@ -608,7 +608,7 @@ hr {
 .carousel {
     z-index: -99;
     margin-top: -55px;
-    margin-bottom: 0;
+    bottom: -55px !important;
     margin-left: 0;
     margin-right: 0;
 }
