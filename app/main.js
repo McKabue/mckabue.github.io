@@ -22,7 +22,7 @@ define(['durandal/app', 'durandal/viewLocator', 'durandal/system', 'shell'],
 	    system.debug(true);
 	    //>>excludeEnd("build");
 
-	    app.title = 'Blog';
+	    app.title = 'McKabue';
 
 	    //specify which plugins to install and their configuration
 	    app.configurePlugins({
