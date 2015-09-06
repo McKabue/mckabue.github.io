@@ -9,11 +9,6 @@
               "Proficient in JavaScript, and some surrounding frameworks",
               "Talented in User Interface design",
               "Ability to follow Instructions implicitly"
-    ],
-    "education": [
-        {"school": "KISII UNIVERSITY (2015 – 2012 )   -  BACHELOR OF SOFTWARE ENGINEERING", "details": "Completed my final semester in August (2015), and awaiting graduation sometime between December 2015, and December 2016"},
-        {"school": "CHINGA BOYS HIGH (2007 – 2010) - KENYA CERTIFICATE OF SECONDARY EXAMINATIONS", "details": "I liked physics and chemistry the most, and got a B+ total"}
-    ],
-    "references": "Referees are available on request"
+    ]
     
 }

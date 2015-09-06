@@ -15,12 +15,15 @@ html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-ser
 
 .clear {clear: both;}
 
-p {
+p, .skilllist {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
 	color: #444;
+
+    list-style-type: none;
 }
+
 
 #cv {
 	width: 90%;
@@ -208,16 +211,15 @@ hr {
 
 
 .subDetails {
-	font-size: 0.8em;
+	font-size: 1.3em;
 	font-style: italic;
 	margin-bottom: 3px;
 }
 
 .keySkills {
-	list-style-type: none;
-	-moz-column-count:2;
-	-webkit-column-count:2;
-	column-count:2;
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
 	margin-bottom: 20px;
 	font-size: 1em;
 	color: #444;
@@ -244,7 +246,7 @@ hr {
 	transition: all .3s ease-in;
 }
 
-.keySkills ul li {
+.keySkills.ul li {
 	margin-bottom: 3px;
 }
 
@@ -363,10 +365,62 @@ hr {
 
 
 
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #2A0D0D;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #2A0D0D;
+}
+
+.navbar-default .navbar-brand {
+    color: #2A0D0D;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #2A0D0D;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #2A0D0D;
+    border-bottom: 0 solid #cf8a05;
+    border-bottom-width: 5px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: #2A0D0D !important;
+}
+
+.navbar-default {
+    background-color: #B3B3B3;
+    border-color: #B3B3B3;
+    border-width: 0 0;
+}
+
+
+
+
+
+
+
+
+
+
 /*======================================================================*/
 .wiz {
                     position: fixed;
-                    margin-top: 30% !important;
+                    margin-top: 24% !important;
                     margin-left: 0;
                     
                 }
@@ -396,8 +450,8 @@ hr {
                         height: 46px;
                         line-height: 46px;
                         position: relative;
-                        background: #ea8b47;
-                        color: #000;
+                        background-color: #2A0D0D;
+                        color: #fff;
                         font-size: 16px;
                     }
 
@@ -405,7 +459,7 @@ hr {
 
                     .wiz > ul.steps li .chevron, .wiz > .steps-container > ul.steps li .chevron {
                     border: 24px solid transparent;
-                    border-left: 14px solid #000;
+                    border-left: 14px solid #cf8a05;
                     border-right: 0;
                     display: block;
                     position: absolute;
@@ -420,7 +474,7 @@ hr {
 
                     .wiz > ul.steps li .chevron::before, .wiz > .steps-container > ul.steps li .chevron::before {
                         border: 24px solid transparent;
-                        border-left: 14px solid #ea8b47;
+                        border-left: 14px solid #2A0D0D;
                         border-right: 0;
                         content: "";
                         display: block;
@@ -465,12 +519,13 @@ hr {
     transition: all 0.2s ease-in-out 0s;
     width: 316px;
     margin-top: 9px;
-    border: 5px solid #777;
+    border: 5px solid #2A0D0D;
     margin-right: 10px;
 }
 
 .page {
     margin-top: 55px;
+    margin-bottom: 55px;
     margin-left: 30px;
     margin-right: 30px;
     padding-bottom: 100px;
