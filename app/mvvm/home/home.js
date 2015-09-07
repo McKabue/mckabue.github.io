@@ -12,7 +12,7 @@
             },
             compositionComplete: function () {
                 // alert("home compositionComplete");
-                $('.carousel').carousel({ interval: 5000, cycle: true });
+                $('.carousel').carousel({ interval: 2500, cycle: true });
             }
         };
 
