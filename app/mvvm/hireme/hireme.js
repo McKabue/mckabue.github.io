@@ -10,19 +10,16 @@
             minLength: 0
         };
 
-        var searchHasFocus = ko.observable(false);
 
         var viewmodel = {
-
             router: router,
 
-            searchHasFocus: searchHasFocus,
-
+            activate: function () {
+                //alert(ko.toJSON(router.activeInstruction()));
+            },
             typeaheadOpts: typeaheadOptions,
 
             SearchText: SearchText,
-
-            
         };
 
         return viewmodel;

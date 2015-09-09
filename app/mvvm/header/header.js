@@ -1,9 +1,15 @@
 ﻿define(['plugins/router'],
     function (router) {
 
+        
+
         var viewmodel = {
 
-            router: router
+            router: router,
+
+            
+
+            
         };
 
         return viewmodel;

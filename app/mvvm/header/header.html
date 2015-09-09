@@ -18,10 +18,15 @@
                     <a data-bind="attr: { href: hash }, text: title"></a>
                 </li>
                 <!-- /ko -->
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Tools</a></li>
-                <li><a href="#">Hire Me</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span>Contact</span> <b class="caret"></b></a>
+                    <ul class="dropdown-menu navishare">
+                        <li><a class="twitter-share" href="#" target="_blank"><i class="fa fa-twitter"></i>  <span>Twitter</span> </a></li>
+                        <li><a class="gplus-share" href="#" target="_blank"><i class="fa fa-google-plus"></i>  <span>Google Plus</span></a></li>
+                        <li><a href="http://github.com/mckabue/profile" target="_blank"><i class="fa fa-github"></i>  <span>Github</span></a></li>
+                        <li><a href="http://mckabue.wordpress.com/contact" target="_blank"><i class="fa fa-envelope"></i>  <span>Send an Email</span></a></li>
+                    </ul>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

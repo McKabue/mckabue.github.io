@@ -404,9 +404,48 @@ hr {
 
 .navbar-default {
     background-color: #B3B3B3;
-    border-color: #B3B3B3;
-    border-width: 0 0;
+    
 }
+
+.navbar-fixed-top {
+    border-color: #000;
+    border-width: 0 0 3px;
+}
+
+.navbar-fixed-bottom {
+    border-color: #000;
+    border-width: 3px 0 0;
+}
+
+.navishare li a.fb-share:hover, .navishare li a.fb-share:focus {
+	border-left: 0 solid #000;
+    border-left-width: 5px;
+    padding-left: 15px;
+    color: #fff;
+    background: #39579b;
+}
+
+.navishare li a.twitter-share:hover, .navishare li a.twitter-share:focus {
+	border-left: 0 solid #000;
+    border-left-width: 5px;
+    padding-left: 15px;
+    color: #fff;
+    background: #00aced;
+}
+
+.navishare li a.gplus-share:hover, .navishare li a.gplus-share:focus {
+	border-left: 0 solid #000;
+    border-left-width: 5px;
+    padding-left: 15px;
+    color: #fff;
+    background: #D34836;
+}
+
+.navishare li a span {
+	padding-left:5px;
+}
+
+
 
 
 
@@ -520,7 +559,14 @@ hr {
     width: 316px;
     margin-top: 9px;
     border: 5px solid #2A0D0D;
-    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.search-input:focus {
+    color: #292F33;
+    border: 5px solid #cf8a05;
 }
 
 .page {

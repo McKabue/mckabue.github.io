@@ -4,8 +4,8 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li role="search">
-                    <form data-bind="submit: Search">
-                        <input class="search-input" placeholder="Search Here" name="q" autocomplete="off" spellcheck="false" type="text" data-bind="value: searchTerm">
+                    <form data-bind="style: { backgroundColor: searchHasFocus() < true ? '' : '#2A0D0D' }">
+                        <input class="search-input" placeholder="Search Here" name="q" autocomplete="off" spellcheck="false" type="text" data-bind="typeaheadJS: typeaheadOpts, value: SearchText, hasFocus: searchHasFocus">
                         <button hidden type="submit"></button>
                     </form>
                 </li>

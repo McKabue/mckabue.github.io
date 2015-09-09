@@ -3,8 +3,11 @@ define(['plugins/router', 'durandal/system', ],
     function (router, system) {
         
 
-        var r2 = [{ 'route': ['', 'home'], 'title': 'Home', 'moduleId': 'mvvm/home/home', 'nav': true },
-                  { 'route': 'resume', 'title': 'Resume', 'moduleId': 'mvvm/resume/resume', 'nav': true }
+        var r2 = [{ 'route': ['', 'home'], 'title': 'Home', 'moduleId': 'mvvm/home/home', 'nav': 1 },
+                  { 'route': 'resume', 'title': 'Resume', 'moduleId': 'mvvm/resume/resume', 'nav': 2 },
+                  { 'route': 'projects', 'title': 'Projects', 'moduleId': 'mvvm/projects/projects', 'nav': 3 },
+                  { 'route': 'tools', 'title': 'Tools', 'moduleId': 'mvvm/tools/tools', 'nav': 4 },
+                  { 'route': 'hireme', 'title': 'Hire Me', 'moduleId': 'mvvm/hireme/hireme', 'nav': 5 }
         ];
 
         function loadRoutes() {
@@ -28,7 +31,7 @@ define(['plugins/router', 'durandal/system', ],
 
 
                 return router.map(r2).buildNavigationModel()
-                  //.mapUnknownRoutes('MVVM/not-found/not-found', 'not-found')
+                  .mapUnknownRoutes('mvvm/home/home', '#')
                   //  .activate({ pushState : true });
                   .activate();
 
