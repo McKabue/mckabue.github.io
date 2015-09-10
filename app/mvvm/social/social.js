@@ -9,7 +9,7 @@
             activate: function () {
                 twttr.ready(function (twttr) {
                     // bind events here
-                    alert("twttr.ready");
+                    //alert("twttr.ready");
                     twttr.widgets.load();
                   }
                 );
