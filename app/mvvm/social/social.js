@@ -7,7 +7,12 @@
             router: router,
 
             activate: function () {
-                //alert("social in...");
+                twttr.ready(function (twttr) {
+                    // bind events here
+                    alert("twttr.ready");
+                  }
+                );
+                
                 twttr.widgets.load();
             }
         };
