@@ -41,7 +41,7 @@
                     },
                     */
                     remote: {
-                        url: "http://clients1.google.com/complete/search?client=partner&hl=en&sugexp=gsnos%2Cn%3D13&gs_rn=25&gs_ri=partner&partnerid=004914516364918182382%3Ayfqw09r4qvu&types=t&ds=cse&cp=3&gs_id=15&q=%QUERY",
+                        url: "http://clients1.google.com/complete/search?client=partner&hl=en&sugexp=gsnos%2Cn%3D13&gs_rn=25&gs_ri=partner&partnerid=007448797502181840672:minf_ltsr2s&types=t&ds=cse&cp=3&gs_id=15&q=%QUERY", //007448797502181840672:minf_ltsr2s
                         ajax: {
                             type: 'GET',
                             dataType: 'jsonp'
