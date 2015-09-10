@@ -8,6 +8,7 @@
 
             activate: function () {
                 //alert("social in...");
+                twttr.widgets.load();
             }
         };
 
