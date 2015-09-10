@@ -1,6 +1,6 @@
 ﻿
-define(['plugins/router', 'durandal/system', ],
-    function (router, system) {
+define(['plugins/router', 'durandal/system', 'services/toastrLogger'],
+    function (router, system, toastrLogger) {
         
 
         var r2 = [{ 'route': ['', 'home'], 'title': 'Home', 'moduleId': 'mvvm/home/home', 'nav': 1 },
@@ -29,11 +29,15 @@ define(['plugins/router', 'durandal/system', ],
                 var self = this;
 
 
+                toastrLogger.log("info", "Pause abit...", "This site was created with pure Javascript and HTML, it's a pure static site", "toast-top-left", 500, 15000);
 
                 return router.map(r2).buildNavigationModel()
                   .mapUnknownRoutes('mvvm/home/home', '#')
                   //  .activate({ pushState : true });
                   .activate();
+
+
+                
 
             },
 

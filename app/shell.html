@@ -2,15 +2,15 @@
 
 
 
+<div class="col-md-9">
+    <article data-bind="compose : 'mvvm/header/header'"></article>
 
+    <div class="page-host" data-bind="router: {cacheViews:true }"></div>
 
-<article data-bind="compose : 'mvvm/header/header'">
-
-</article>
-
-<div class="page-host" data-bind="router: { transition:'entrance', cacheViews:true }">
-
+    <article data-bind="compose : 'mvvm/footer/footer'"></article>
 </div>
 
-
-<article data-bind="compose : 'mvvm/footer/footer'"></article>
+    
+<div style="position:fixed; background-color: #ededed; right:0; top:0; bottom:0;" class="col-md-3">
+    <article data-bind="compose : 'mvvm/social/social'"></article>
+</div>
