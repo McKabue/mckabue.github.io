@@ -18,13 +18,13 @@
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <span class='st_sharethis_large' displaytext='ShareThis'></span>
-                    <span class='st_facebook_large' displaytext='Facebook'></span>
+                    <span class='st_email_large' displaytext='Email'></span>
                     <span class='st_googleplus_large' displaytext='Google +'></span>
-                    <span class='st_pinterest_large' displaytext='Pinterest'></span>
                     <span class='st_twitter_large' displaytext='Tweet'></span>
                     <span class='st_linkedin_large' displaytext='LinkedIn'></span>
-                    <span class='st_email_large' displaytext='Email'></span>
+                    <span class='st_facebook_large' displaytext='Facebook'></span>
+                    <span class='st_sharethis_large' displaytext='ShareThis'></span>
+                    <span class='st_pinterest_large' displaytext='Pinterest'></span>
                 </div>
             </div>
         </div>
@@ -34,7 +34,12 @@
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
                 <div class="panel-body">
-                    PAYPAL, PAY WITH A TWEET,
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="9TJ6XK8VCTNQQ">
+                        <input type="image" src="/Content/app/buy-me-a-coffee.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 </div>
             </div>
         </div>
