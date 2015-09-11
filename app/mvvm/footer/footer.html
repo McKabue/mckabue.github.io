@@ -3,14 +3,14 @@
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
             <li role="search">
-                <form id="searchform" action="search.html" data-bind="style: { backgroundColor: searchHasFocus() < true ? '' : '#2A0D0D' }">
+                <form id="searchform" data-bind="style: { backgroundColor: searchHasFocus() < true ? '' : '#2A0D0D' }">
                     <input class="search-input" placeholder="Search Here" name="q" autocomplete="off" spellcheck="false" type="text" data-bind="typeaheadJS: typeaheadOpts, value: SearchText, hasFocus: searchHasFocus">
                     <input type="submit" hidden />
                 </form>
             </li>
 
         </ul>
-        
+
 
         <ul style="padding-right: 15px;" class="nav navbar-nav navbar-right">
             <li class="navbar-brand"><span>Web Architect</span></li>

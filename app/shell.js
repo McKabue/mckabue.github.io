@@ -7,7 +7,8 @@ define(['plugins/router', 'durandal/system', 'services/toastrLogger'],
                   { 'route': 'resume', 'title': 'Resume', 'moduleId': 'mvvm/resume/resume', 'nav': 2 },
                   { 'route': 'projects', 'title': 'Projects', 'moduleId': 'mvvm/projects/projects', 'nav': 3 },
                   { 'route': 'tools', 'title': 'Tools', 'moduleId': 'mvvm/tools/tools', 'nav': 4 },
-                  { 'route': 'hireme', 'title': 'Hire Me', 'moduleId': 'mvvm/hireme/hireme', 'nav': 5 }
+                  { 'route': 'hireme', 'title': 'Hire Me', 'moduleId': 'mvvm/hireme/hireme', 'nav': 5 },
+                  { 'route': 'search', 'title': 'search', 'moduleId': 'mvvm/search/search', 'nav': false }
         ];
 
         function loadRoutes() {

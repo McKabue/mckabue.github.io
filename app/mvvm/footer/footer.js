@@ -30,7 +30,10 @@
                 $(".search-input").keypress(function (event) {
                     if (event.which == 13) {
                         event.preventDefault();
-                        $("#searchform").submit();
+                        //$("#searchform").submit();
+                        //alert($(".search-input").val())
+                        //window.location.hash = "#search/?q=" + "s";
+                        window.location = "search.html?q=" + "s";
                     }
                 });
             },

@@ -4,7 +4,7 @@
     <title></title>
 </head>
 <body>
-
+    <link href="Content/bootstrap.css" rel="stylesheet" />
     <script>
     (function () {
         var cx = '007448797502181840672:minf_ltsr2s';
@@ -17,8 +17,29 @@
         s.parentNode.insertBefore(gcse, s);
     })();
     </script>
-    <gcse:searchresults-only></gcse:searchresults-only>
 
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <form class="form-horizontal">
+                    <div class="input-group typeahead-wrapper" style="margin-top: 10px;">
+                        <input type="text" class="form-control" placeholder="Search Goggle" name="q">
+                        <button style="cursor: pointer; padding: 0 12px;" class="input-group-addon" type="submit"><i style="width: 50px; font-size: 20px;" class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <gcse:searchresults-only></gcse:searchresults-only>
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    
+    <script src="Scripts/bootstrap.js"></script>
     
 
 </body>
