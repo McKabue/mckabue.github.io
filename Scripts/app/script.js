@@ -106,3 +106,11 @@
             });
         }
     };
+
+    ko.bindingHandlers.loadrepository = {
+        init: function (element, valueAccessor, allBindingsAccessor) {
+            var el = $(element);
+
+            el.loadRepositories("mckabue");
+        }
+    }
