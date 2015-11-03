@@ -80,7 +80,7 @@ p, .skilllist {
         height: 190px;
         border-radius: 50%;
         /*border:2px solid #000;*/
-        box-shadow:0 0 0 2px #2A0D0D, 0 0 0 4px #cf8a05;
+        box-shadow:0 0 0 8px #2A0D0D, 0 0 0 16px #cf8a05;
     }
 
 
