@@ -11,7 +11,7 @@ define(['plugins/router'],
                 async: true,
                 cache: true
             }).done(function (data) {
-                self.resume(new resumeData(data))
+                self.resume(data);
             }).fail(function (data) {
                 alert(ko.toJSON(data))
             });
@@ -20,21 +20,21 @@ define(['plugins/router'],
             
         };
 
-        function resumeData(data) {
-            var self = this;
-            this.personalsummary = data.personalsummary;
-            this.skillsabilities = [];
-            data.skillsabilities.forEach(function (i) {
-                self.skillsabilities.push({ "value": i });
-            });
+        //function resumeData(data) {
+        //    var self = this;
+        //    this.personalsummary = data.personalsummary;
+        //    this.skillsabilities = [];
+        //    data.skillsabilities.forEach(function (i) {
+        //        self.skillsabilities.push({ "value": i });
+        //    });
 
-            this.references = data.references;
-            this.education = [];
-            data.education.forEach(function (i) {
-                self.education.push(i);
-            });
+        //    this.references = data.references;
+        //    this.education = [];
+        //    data.education.forEach(function (i) {
+        //        self.education.push(i);
+        //    });
             
-        };
+        //};
 
         var viewmodel = {
 

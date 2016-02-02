@@ -9,12 +9,28 @@
                     </div>
 
                     <div class="sectionContent2">
-                        <p data-bind="html: personalsummary"></p>
+                        <p data-bind="html: $data.personalsummary"></p>
                     </div>
                 </article>
                 <div class="clear"></div>
             </section>
 
+            <section>
+                <div class="sectionTitle2">
+                    <h1>PERSONAL INFO</h1>
+                </div>
+
+                <div class="sectionContent2">
+                    <article>
+                        <ul class="skilllist fa fa-ul" style="font-size: 1.2em;">
+                            <!-- ko foreach: $data.personalinfo -->
+                            <li><i class="fa-li fa fa-check-circle-o"></i> <span data-bind="html: $data"></span></li>
+                            <!-- /ko -->
+                        </ul>
+                    </article>
+                </div>
+                <div class="clear"></div>
+            </section>
 
             <section>
                 <div class="sectionTitle2">
@@ -24,8 +40,8 @@
                 <div class="sectionContent2">
                     <article>
                         <ul class="skilllist fa fa-ul" style="font-size: 1.2em;">
-                            <!-- ko foreach: skillsabilities -->
-                            <li><i class="fa-li fa fa-check-circle-o"></i> <span data-bind="html: value"></span></li>
+                            <!-- ko foreach: $data.skillsabilities -->
+                            <li><i class="fa-li fa fa-check-circle-o"></i> <span data-bind="html: $data"></span></li>
                             <!-- /ko -->
                         </ul>
                     </article>
@@ -41,15 +57,65 @@
 
                 <div class="sectionContent2">
 
-                    <!-- ko foreach: education -->
-                    <p class="subDetails" data-bind="html: school"></p>
-                    <p data-bind="html: details"></p>
+                    <!-- ko foreach: $data.education -->
+                    <p class="subDetails" data-bind="html: $data.school"></p>
+                    <p data-bind="html: $data.details"></p>
                     <!-- /ko -->
 
                 </div>
                 <div class="clear"></div>
             </section>
 
+            <section>
+                <div class="sectionTitle2">
+                    <h1>ACHIEVEMENTS</h1>
+                </div>
+
+                <div class="sectionContent2">
+                    <article>
+                        <ul class="skilllist fa fa-ul" style="font-size: 1.2em;">
+                            <!-- ko foreach: $data.achievements -->
+                            <li><i class="fa-li fa fa-check-circle-o"></i> <span data-bind="html: $data"></span></li>
+                            <!-- /ko -->
+                        </ul>
+                    </article>
+                </div>
+                <div class="clear"></div>
+            </section>
+
+            <section>
+                <div class="sectionTitle2">
+                    <h1>KEY ATTRIBUTES</h1>
+                </div>
+
+                <div class="sectionContent2">
+                    <article>
+                        <ul class="skilllist fa fa-ul" style="font-size: 1.2em;">
+                            <!-- ko foreach: $data.attributes -->
+                            <li><i class="fa-li fa fa-check-circle-o"></i> <span data-bind="html: $data"></span></li>
+                            <!-- /ko -->
+                        </ul>
+                    </article>
+                </div>
+                <div class="clear"></div>
+            </section>
+
+            <section>
+                <div class="sectionTitle2">
+                    <h1>INTERESTS</h1>
+                </div>
+
+                <div class="sectionContent2">
+                    <article>
+                        <ul class="skilllist fa fa-ul" style="font-size: 1.2em;">
+                            <!-- ko foreach: $data.intrests -->
+                            <li><i class="fa-li fa fa-check-circle-o"></i> <span data-bind="html: $data"></span></li>
+                            <!-- /ko -->
+                        </ul>
+                    </article>
+                </div>
+                <div class="clear"></div>
+            </section>
 
             <section>
                 <div class="sectionTitle2">
@@ -58,7 +124,7 @@
 
                 <div class="sectionContent2">
                     <article>
-                        <p data-bind="html: references"></p>
+                        <p data-bind="html: $data.references"></p>
                     </article>
                 </div>
                 <div class="clear"></div>
