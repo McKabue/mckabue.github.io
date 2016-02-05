@@ -1,4 +1,58 @@
-﻿<div style="top:0; background-color:transparent; position:fixed; bottom:200px; width:22%; overflow-y:auto;">
+﻿<style>
+    .share-btn {
+        display: inline-block;
+        color: #ffffff;
+        border: none;
+        padding: 0.5em;
+        width: 4em;
+        opacity: 0.9;
+        box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+        outline: none;
+        text-align: center;
+    }
+
+        .share-btn:hover {
+            color: #eeeeee;
+        }
+
+        .share-btn:active {
+            position: relative;
+            top: 2px;
+            box-shadow: none;
+            color: #e2e2e2;
+            outline: none;
+        }
+
+        .share-btn.twitter {
+            background: #55acee;
+        }
+
+        .share-btn.google-plus {
+            background: #dd4b39;
+        }
+
+        .share-btn.facebook {
+            background: #3B5998;
+        }
+
+        .share-btn.stumbleupon {
+            background: #EB4823;
+        }
+
+        .share-btn.reddit {
+            background: #ff5700;
+        }
+
+        .share-btn.linkedin {
+            background: #4875B4;
+        }
+
+        .share-btn.email {
+            background: #444444;
+        }
+</style>
+
+<div style="top:0; background-color:transparent; position:fixed; bottom:200px; width:22%; overflow-y:auto;">
     <div class="panel-group" id="accordion">
         <div class="panel panel-default blackborder">
             <div class="panel-heading">
@@ -18,13 +72,30 @@
                 <div class="panel-body">
                     <p>Share this website with your friends, parhaps i might land on a Serious Software Project...</p>
 
-                    <!--<span class='st_email_large' displaytext='Email'></span>
-                    <span class='st_googleplus_large' displaytext='Google +'></span>
-                    <span class='st_twitter_large' displaytext='Tweet'></span>
-                    <span class='st_linkedin_large' displaytext='LinkedIn'></span>
-                    <span class='st_facebook_large' displaytext='Facebook'></span>
-                    <span class='st_sharethis_large' displaytext='ShareThis'></span>
-                    <span class='st_pinterest_large' displaytext='Pinterest'></span>-->
+                    <!-- Twitter -->
+                    <a href="" target="_blank" class="share-btn twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+
+                    <!-- Google Plus -->
+                    <a href="" target="_blank" class="share-btn google-plus">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+
+                    <!-- Facebook -->
+                    <a href=" target="_blank" class="share-btn facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="" target="_blank" class="share-btn linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+
+                    <!-- Email -->
+                    <a href="" target="_blank" class="share-btn email">
+                        <i class="fa fa-envelope"></i>
+                    </a>
                 </div>
             </div>
         </div>
