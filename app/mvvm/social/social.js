@@ -15,9 +15,9 @@
         }
 
         function twttr() {
-            twttr.ready(function (twttr) {
+            window.twttr.ready(function (twttr) {
                 // bind events here
-                //alert("twttr.ready");
+                alert("twttr.ready");
                 //twttr.widgets.load();
                 twttr.widgets.load(document.getElementById("collapseOne"));
             });
@@ -27,11 +27,13 @@
             router: router,
 
             activate: function () {
-                
+               
             },
 
             attached: function () {
                 disqus();
+            },
+            compositionComplete: function () {
                 twttr();
             }
         };
