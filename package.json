@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "name": "mckabue.github.io",
+  "private": true,
+  "devDependencies": {
+    "vue": "2.5.15",
+    "animate.css": "3.6.1",
+    "es6-promise": "4.2.4",
+    "flickity": "2.0.11",
+    "font-awesome": "4.7.0",
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.1",
+    "gulp-cssmin": "0.2.0",
+    "gulp-download": "0.0.1",
+    "gulp-filter": "5.1.0",
+    "gulp-htmlmin": "4.0.0",
+    "gulp-if": "2.0.2",
+    "gulp-inject": "4.3.1",
+    "gulp-rcs": "1.1.0",
+    "gulp-replace": "0.6.1",
+    "gulp-sass": "3.2.0",
+    "gulp-uglify": "3.0.0",
+    "gulp-util": "3.0.8",
+    "imagesloaded": "4.1.4",
+    "include-media": "1.4.9",
+    "lodash": "4.17.5",
+    "moment": "2.21.0",
+    "napa": "3.0.0",
+    "postal": "2.0.5",
+    "requirejs": "2.3.5",
+    "requirejs-text": "2.0.15",
+    "rimraf": "2.6.2",
+    "video.js": "6.7.3",
+    "videojs-youtube": "2.4.1"
+  },
+  "scripts": {
+    "install": "napa"
+  },
+  "napa": {
+    "videojs-vimeo": "git://github.com/videojs/videojs-vimeo"
+  }
+}
