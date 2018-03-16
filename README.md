@@ -1,9 +1,8 @@
-CV
+## CV
 
 #### Fonts
  - Lucida Console - https://www.sitepoint.com/top-10-programming-fonts/
  - Google Products
-
 
 
 ### Tools
@@ -11,11 +10,9 @@ CV
  - Self Writing Tools - https://mattboldt.com/demos/typed-js/
 
 
-
 ### Inspitation
  - https://writing.ai/
  - https://cms-assets.tutsplus.com/uploads/users/1223/posts/28115/image/Classic.png
-
 
 
 ### Proficency
