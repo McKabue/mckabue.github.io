@@ -132,13 +132,13 @@ gulp.task('app:build', ['app:clean'], function (cb) {
 
     
 
-    gulp.src([paths.src.root + '**', '!'+paths.src.root + 'Index.html']).pipe(gulp.dest(paths.webroot));
+    gulp.src([paths.src.root + '**', '!'+paths.src.root + 'index.html']).pipe(gulp.dest(paths.webroot));
 
     
 
     let cssFilter = filter('**/*.css', { restore: true });
     let sassFilter = filter('**/*.scss', { restore: true });
-    gulp.src([paths.src.root + 'Index.html'])
+    gulp.src([paths.src.root + 'index.html'])
         .pipe(inject(
             gulp.src([paths.src.app + 'css/**'])
                 //Compile SASS
