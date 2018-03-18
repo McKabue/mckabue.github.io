@@ -2151,24 +2151,32 @@ requirejs.config({
     baseUrl: "/dest",
     paths: {
         "text": "../vendors/requirejs-text/text",
-        'vuejs': "../vendors/vue/vue.min"
+        'vuejs': "../vendors/vue/vue.min",
+        "particlesjs": "../vendors/vue-particles/particles",
+        "vue-particles": "../vendors/vue-particles/vue-particles"
     },
     waitSeconds: 7,
     shim: {
-        
+        'particlesjs': {
+            exports: 'particlesJS'
+        }
     },
     callback: function () {
 
     }
 });
 
+define('particles.js', ['particlesjs'], function (particlesjs) {
+    return particlesjs;
+});
+
 define('vue', ['vuejs'], function (vue) {
     return vue;
 });
 
-require(['vue', 'utils'], function (Vue, utils) {
-    
+require(['vue', 'utils', 'vue-particles'], function (Vue, utils, vueparticles) {
 
+    Vue.use(vueparticles);
     var model = {
         data: {
             currentView: 'create-post',
@@ -2180,7 +2188,8 @@ require(['vue', 'utils'], function (Vue, utils) {
             },
             'manage-posts': function (resolve) {
                 require(['loader!manage-posts'], resolve); //require(['loader!text!components/manage-posts/manage-posts.html:components/manage-posts/manage-posts'], resolve);
-            }
+            },
+            //'vue-particles': vueparticles
         },
         //methods: {
         //    rawHtml: function () {
@@ -2194,9 +2203,13 @@ require(['vue', 'utils'], function (Vue, utils) {
         //        return html.innerHTML;
         //    }
         //},
-        //created: function () {
-
-        //}
+        created: function () {
+            var _timeout_ = setTimeout(function () {
+                var elem = document.getElementsByClassName('splash-screen')[0];
+                elem.parentNode.removeChild(elem)
+                clearTimeout(_timeout_);
+            }, 3000);
+        }
     };
 
     var viewModel = new Vue(model);

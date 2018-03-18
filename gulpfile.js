@@ -53,6 +53,7 @@ gulp.task('npm:copy', ['npm:clean'], function (cb) {
         /*minify*/ "requirejs-text": ["./node_modules/requirejs-text/text.js"],
         "typed.js": ["./node_modules/typed.js/lib/typed.min.js"],
         /*font-awesome fonts*/ "fonts": ["./node_modules/font-awesome/fonts/**"],
+        "vue-particles": ["./node_modules/vue-particles/vue-particles/vue-particles.js", "./node_modules/particles.js/particles.js"],
         "css": [
             /*animate.css*/ "./node_modules/animate.css/animate.min.css",
             /*flickity*/ "./node_modules/flickity/dist/flickity.min.css",

@@ -9,31 +9,48 @@
 <!--<![endif]-->
 
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
     <!-- style:css --><!-- endinject -->
 </head>
 <body>
+    <div class="main-body-wrapper" id="main-body-wrapper">
+        <vue-particles color="#dedede"></vue-particles>
 
-    <div id="main-body-wrapper">
-        <div class="header clearfix">
-            <nav>
-                <ul class="nav nav-pills pull-right">
-                    <li role="presentation">
-                        <a href="#" @click="currentView='manage-posts'">Manage Posts</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#" v-on:click="currentView='create-post'">Create Post</a>
-                    </li>
-                </ul>
-            </nav>
-            <h3 class="text-muted">Admin Panel</h3>
-        </div>
 
-        <div class="container">
-            <transition enter-active-class="animated slideInLeft" leave-active-class="animated fadeOut" mode="out-in">
-                <keep-alive>
-                    <component :is="currentView"></component>
-                </keep-alive>
-            </transition>
+
+
+
+
+
+        <!--<div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation">
+                    <a href="#" @click="currentView='manage-posts'">Manage Posts</a>
+                </li>
+                <li role="presentation">
+                    <a href="#" v-on:click="currentView='create-post'">Create Post</a>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">Admin Panel</h3>
+    </div>
+
+    <div class="container">
+        <transition enter-active-class="animated slideInLeft" leave-active-class="animated fadeOut" mode="out-in">
+            <keep-alive>
+                <component :is="currentView"></component>
+            </keep-alive>
+        </transition>
+    </div>-->
+
+
+    </div>
+
+    <div class="splash-screen" style="">
+        <div class="detail">
+            <div class="name">mckabue.com</div>
         </div>
     </div>
 

@@ -1,11 +1,86 @@
-﻿
-.header {
-    padding: 15px 15px 20px 15px;
-    border-bottom: 1px solid #e5e5e5;
+﻿$black: #000;
+$white: #fff;
+$sharetechmono: 'Share Tech Mono', monospace;
+
+
+
+
+//https://css-tricks.com/international-box-sizing-awareness-day/
+*, *:before, *:after {
+    /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+    -webkit-box-sizing: border-box;
+    /* Firefox (desktop or Android) 28- */
+    -moz-box-sizing: border-box;
+    /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+    box-sizing: border-box;
 }
 
-.header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
+
+
+::-ms-clear {
+    display: none;
+}
+
+:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background: $black;
+    margin: 10px 0 10px 0;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Product Sans;
+    background-image: linear-gradient(to right, #EE3340 0, #6700FF 100%);
+    /*background: #003eaa;
+    background-image: url(https://www.mozilla.org/media/img/firefox/whatsnew/fox-tail.bca93500c111.png), linear-gradient(87deg,#6a11cb 0,#2575fc 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;*/
+}
+
+
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #EE3340 0, #6700FF 100%);
+    z-index: 10000;
+    display: table;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    .detail {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+
+        .name {
+            text-align: center;
+            font-family: $sharetechmono;
+            color: $white;
+            padding: 20px;
+            text-align: center;
+            font-size: 10vw;
+            text-shadow: 0px 5px 14px $black;
+        }
+    }
 }
