@@ -26,6 +26,15 @@ $background-gradient-bisexual: linear-gradient(to right, #EE3340 0, #6700FF 100%
     color: inherit;
 }
 
+.clearfix {
+    &::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+}
+
+
 hr {
     height: 2px;
     border: none;
@@ -129,6 +138,7 @@ html, body {
             transition: all 0.5s ease-out;
 
             .title-bar {
+                color: $black;
                 padding: 5px 0;
                 font-family: "Lucida Grande", sans-serif;
                 font-size: 0.75em;
@@ -154,6 +164,9 @@ html, body {
                 -o-transition: all 0.5s ease-out;
                 transition: all 0.5s ease-out;
 
+                div {
+                    display: inline-block;
+                }
 
                 .typed-cursor {
                     opacity: 1;
@@ -164,8 +177,6 @@ html, body {
                     -o-animation: blink 0.7s infinite;
                     animation: blink 0.7s infinite;
                 }
-
-                
             }
         }
     }

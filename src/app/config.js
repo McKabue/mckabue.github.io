@@ -66,16 +66,18 @@ require(['vue', 'utils', 'vue-particles', 'typed'], function (Vue, utils, vuepar
             }, 3000);
         },
         mounted: function () {
-            var _typedInstance = new typed("#typed", {
-                strings: ["$ Hi,^1000\n$ am here to tell you about Kabue Charles... ^1000\n$ `Lets start from where he was born` ^1000\n$ Kabue was born in"],
-                cursorChar: '_',
-                typeSpeed: 30,
-                backSpeed: 30,
-                backDelay: 2000,
-                startDelay: 4000,
-                callback: function () {
+            require(['bio'], function (bio) {
+                var _typedInstance = new typed("#typed", {
+                    strings: bio,
+                    cursorChar: '_',
+                    typeSpeed: 15,
+                    backSpeed: 30,
+                    backDelay: 2000,
+                    startDelay: 4000,
+                    callback: function () {
 
-                }
+                    }
+                });
             });
         }
     };
