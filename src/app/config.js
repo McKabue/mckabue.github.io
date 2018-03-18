@@ -7,7 +7,8 @@ requirejs.config({
         "text": "../vendors/requirejs-text/text",
         'vuejs': "../vendors/vue/vue.min",
         "particlesjs": "../vendors/vue-particles/particles",
-        "vue-particles": "../vendors/vue-particles/vue-particles"
+        "vue-particles": "../vendors/vue-particles/vue-particles",
+        'typed': "../vendors/typed.js/typed.min",
     },
     waitSeconds: 7,
     shim: {
@@ -28,7 +29,7 @@ define('vue', ['vuejs'], function (vue) {
     return vue;
 });
 
-require(['vue', 'utils', 'vue-particles'], function (Vue, utils, vueparticles) {
+require(['vue', 'utils', 'vue-particles', 'typed'], function (Vue, utils, vueparticles, typed) {
 
     Vue.use(vueparticles);
     var model = {
@@ -63,11 +64,40 @@ require(['vue', 'utils', 'vue-particles'], function (Vue, utils, vueparticles) {
                 elem.parentNode.removeChild(elem)
                 clearTimeout(_timeout_);
             }, 3000);
+        },
+        mounted: function () {
+            var _typedInstance = new typed("#typed", {
+                strings: ["$ Hi,^1000\n$ am here to tell you about Kabue Charles... ^1000\n$ `Lets start from where he was born` ^1000\n$ Kabue was born in"],
+                cursorChar: '_',
+                typeSpeed: 30,
+                backSpeed: 30,
+                backDelay: 2000,
+                startDelay: 4000,
+                callback: function () {
+
+                }
+            });
         }
     };
 
     var viewModel = new Vue(model);
 
     viewModel.$mount('#main-body-wrapper');
+
+    var headTag = document.head || document.getElementsByTagName('head')[0],
+        style = document.createElement('style'),
+        resize = function () {
+            //https://stackoverflow.com/a/8876069
+            var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+            var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+            style.type = 'text/css';
+            style.innerHTML = '.view-height { height: ' + h + 'px !important; }';
+            style.innerHTML += '.view-width { width: ' + w + 'px !important; }';
+        };
+
+    headTag.appendChild(style);
+    window.addEventListener('resize', resize);
+    resize();
+    
 });
 

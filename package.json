@@ -33,7 +33,8 @@
     "video.js": "6.7.3",
     "videojs-youtube": "2.4.1",
     "vue-particles": "1.0.9",
-    "particles.js": "2.0.0"
+    "particles.js": "2.0.0",
+    "typed.js": "2.0.6"
   },
   "scripts": {
     "install": "napa"
