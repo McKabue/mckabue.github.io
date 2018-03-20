@@ -9,6 +9,7 @@ requirejs.config({
         "particlesjs": "../vendors/vue-particles/particles",
         "vue-particles": "../vendors/vue-particles/vue-particles",
         'typed': "../vendors/typed.js/typed.min",
+        "flickity": "../vendors/flickity/flickity.pkgd.min"
     },
     waitSeconds: 7,
     shim: {
@@ -29,7 +30,7 @@ define('vue', ['vuejs'], function (vue) {
     return vue;
 });
 
-require(['vue', 'utils', 'vue-particles', 'typed'], function (Vue, utils, vueparticles, typed) {
+require(['vue', 'utils', 'vue-particles', 'typed', "flickity"], function (Vue, utils, vueparticles, typed, Flickity) {
 
     Vue.use(vueparticles);
     var model = {
@@ -78,6 +79,18 @@ require(['vue', 'utils', 'vue-particles', 'typed'], function (Vue, utils, vuepar
 
                     }
                 });
+            });
+
+            var flkty = new Flickity('.carousel', {
+                cellAlign: 'left',
+                pageDots: false,
+                freeScroll: true,
+                wrapAround: true,
+                imagesLoaded: true,
+                percentPosition: true,
+                adaptiveHeight: true,
+                contain: true,
+                setGallerySize: false
             });
         }
     };
