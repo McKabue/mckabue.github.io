@@ -36,7 +36,8 @@ require(['vue', 'utils', 'vue-particles', 'typed', "flickity"], function (Vue, u
     var model = {
         data: {
             currentView: 'create-post',
-            message: "message"
+            message: "message",
+            carouselIndex: 0
         },
         components: {
             'create-post': {
@@ -67,6 +68,8 @@ require(['vue', 'utils', 'vue-particles', 'typed', "flickity"], function (Vue, u
             }, 3000);
         },
         mounted: function () {
+            var self = this;
+
             require(['bio'], function (bio) {
                 var _typedInstance = new typed("#typed", {
                     strings: bio,
@@ -90,7 +93,12 @@ require(['vue', 'utils', 'vue-particles', 'typed', "flickity"], function (Vue, u
                 percentPosition: true,
                 adaptiveHeight: true,
                 contain: true,
-                setGallerySize: false
+                setGallerySize: false,
+                //prevNextButtons: false,
+            });
+
+            flkty.on('settle', function (index) {
+                self.carouselIndex = index;
             });
         }
     };
