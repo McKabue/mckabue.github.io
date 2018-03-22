@@ -2243,7 +2243,7 @@ require(['vue', 'utils', 'vue-particles', 'typed', "flickity"], function (Vue, u
                 //prevNextButtons: false,
             });
 
-            flkty.on('settle', function (index) {
+            flkty.on('change', function (index) {
                 self.carouselIndex = index;
             });
         }

@@ -11,14 +11,17 @@
 <head>
     <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css">
     <!-- style:css --><!-- endinject -->
 </head>
 <body>
     <div class="main-body-wrapper" id="main-body-wrapper">
-        <div class="about-me view-height">
+        <div class="about-me">
             <div class="image-and-contact">
-                <img class="mckabue-big" src="/mckabue-big.jpg" />
-                <img class="mckabue-small" src="mckabue-small.jpg" />
+                <div class="image-box">
+                    <img class="mckabue-big" src="/mckabue-big.jpg" />
+                    <img class="mckabue-small" src="mckabue-small.jpg" />
+                </div>
                 <div class="mckabue-contact">
                     What is Lorem Ipsum?
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -78,13 +81,9 @@
                 <p>{{carouselIndex}}</p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </div>
-            <div class="carousel-dots">
-                What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </div>
         </div>
-        
 
+        <div class="clear"></div>
         <p>
             What is Lorem Ipsum?
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -107,29 +106,30 @@
 
 
         <!--<div class="header clearfix">
-        <nav>
-            <ul class="nav nav-pills pull-right">
-                <li role="presentation">
-                    <a href="#" @click="currentView='manage-posts'">Manage Posts</a>
-                </li>
-                <li role="presentation">
-                    <a href="#" v-on:click="currentView='create-post'">Create Post</a>
-                </li>
-            </ul>
-        </nav>
-        <h3 class="text-muted">Admin Panel</h3>
-    </div>
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation">
+                        <a href="#" @click="currentView='manage-posts'">Manage Posts</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#" v-on:click="currentView='create-post'">Create Post</a>
+                    </li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">Admin Panel</h3>
+        </div>
 
-    <div class="container">
-        <transition enter-active-class="animated slideInLeft" leave-active-class="animated fadeOut" mode="out-in">
-            <keep-alive>
-                <component :is="currentView"></component>
-            </keep-alive>
-        </transition>
-    </div>-->
+        <div class="container">
+            <transition enter-active-class="animated slideInLeft" leave-active-class="animated fadeOut" mode="out-in">
+                <keep-alive>
+                    <component :is="currentView"></component>
+                </keep-alive>
+            </transition>
+        </div>-->
 
         <vue-particles color="#dedede"></vue-particles>
     </div>
+
 
     <div class="splash-screen" style="">
         <div class="detail">

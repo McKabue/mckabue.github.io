@@ -31,7 +31,7 @@ var gulp = require("gulp"),
         },
         webroot: "./",
         vendors: "./vendors/",
-        dest: "./dest/",
+        dest: "./dest/"
     };
 
 
