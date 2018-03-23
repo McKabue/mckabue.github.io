@@ -243,9 +243,9 @@ html, body {
         .carousel-cell {
             background: red;
             margin-right: 20px;
-            width: auto;
+            height: auto;
             /*overflow: hidden;*/
-            height: 100%;
+            width: 100%;
             /*min-height: 100%;*/
             img {
                 width: auto;

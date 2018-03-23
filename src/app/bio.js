@@ -11,5 +11,5 @@ define([], function () {
     ];
 
 
-    return [info.join('^500\n')];
+    return [info.join('^100\n')];
 });
