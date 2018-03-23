@@ -30,7 +30,7 @@ define('vue', ['vuejs'], function (vue) {
     return vue;
 });
 
-require(['vue', 'utils', 'vue-particles', 'typed', "flickity"], function (Vue, utils, vueparticles, typed, Flickity) {
+require(['vue', 'utils', 'typed'], function (Vue, utils, typed) {
 
     //Vue.use(vueparticles);
     var model = {
@@ -84,22 +84,22 @@ require(['vue', 'utils', 'vue-particles', 'typed', "flickity"], function (Vue, u
                 });
             });
 
-            var flkty = new Flickity('.carousel', {
-                cellAlign: 'left',
-                pageDots: false,
-                freeScroll: true,
-                wrapAround: true,
-                imagesLoaded: true,
-                percentPosition: true,
-                adaptiveHeight: true,
-                contain: true,
-                setGallerySize: false,
-                //prevNextButtons: false,
-            });
+            //var flkty = new Flickity('.carousel', {
+            //    cellAlign: 'left',
+            //    pageDots: false,
+            //    freeScroll: true,
+            //    wrapAround: true,
+            //    imagesLoaded: true,
+            //    percentPosition: true,
+            //    adaptiveHeight: true,
+            //    contain: true,
+            //    setGallerySize: false,
+            //    //prevNextButtons: false,
+            //});
 
-            flkty.on('change', function (index) {
-                self.carouselIndex = index;
-            });
+            //flkty.on('change', function (index) {
+            //    self.carouselIndex = index;
+            //});
         }
     };
 
