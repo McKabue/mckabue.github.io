@@ -2,7 +2,7 @@
 define([], function () {
     var info = [
         "<b>Hi, am here to tell you about Kabue Charles...</b>",
-        "<p><br/>He is a .NET and JavaScript Software Architect;  ^500Poet;^400 Entrepreneur;^300 and a Philosopher;</p>",
+        "<p><br/>He is a .NET and JavaScript Software Architect;  ^100Poet;^50 Entrepreneur;^30 and a Philosopher;</p>",
         "<p><br/>As a software architect, he is specialized in .NET.</p>",
         "<p><br/>As an entrepreneur, he invests his time, money, energy and will in creating things that will make lives better.</p>",
         "<p><br/>As a philosopher, Kabue desires to know a lot about people and his environment.</p>",
@@ -11,5 +11,5 @@ define([], function () {
     ];
 
 
-    return [info.join('^1000\n')];
+    return [info.join('^500\n')];
 });
