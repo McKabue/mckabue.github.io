@@ -2220,7 +2220,7 @@ require(['vue', 'utils', 'vue-particles', 'typed', "flickity"], function (Vue, u
                 var _typedInstance = new typed("#typed", {
                     strings: bio,
                     cursorChar: '_',
-                    typeSpeed: -1,
+                    typeSpeed: 10,
                     //backSpeed: 30,
                     //backDelay: 2000,
                     startDelay: 3000,

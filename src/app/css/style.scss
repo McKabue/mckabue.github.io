@@ -235,21 +235,20 @@ html, body {
     display: flex;
 
     .carousel {
-        background: $black;
-        width: 70%;
+        /*background: $black;*/
+        width: 80%;
         /*min-height: 100%;*/
         z-index: 10;
 
         .carousel-cell {
-            background: red;
             margin-right: 20px;
             height: auto;
             /*overflow: hidden;*/
             width: 100%;
             /*min-height: 100%;*/
             img {
-                width: auto;
-                height: 100%;
+                height: auto;
+                width: 100%;
                 /*min-height: 100%;*/
             }
         }
