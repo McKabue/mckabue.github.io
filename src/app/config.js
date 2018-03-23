@@ -9,7 +9,8 @@ requirejs.config({
         "particlesjs": "../vendors/vue-particles/particles",
         "vue-particles": "../vendors/vue-particles/vue-particles",
         'typed': "../vendors/typed.js/typed.min",
-        "flickity": "../vendors/flickity/flickity.pkgd.min"
+        "flickity": "../vendors/flickity/flickity.pkgd.min",
+        "isotope": "//unpkg.com/isotope-layout@3/dist/isotope.pkgd.min"
     },
     waitSeconds: 7,
     shim: {
@@ -30,9 +31,9 @@ define('vue', ['vuejs'], function (vue) {
     return vue;
 });
 
-require(['vue', 'utils', 'typed'], function (Vue, utils, typed) {
+require(['vue', 'utils', 'vue-particles', "flickity", "isotope"], function (Vue, utils, vueparticles, Flickity, Isotope) {
 
-    //Vue.use(vueparticles);
+    Vue.use(vueparticles);
     var model = {
         data: {
             currentView: 'create-post',
@@ -69,37 +70,28 @@ require(['vue', 'utils', 'typed'], function (Vue, utils, typed) {
         },
         mounted: function () {
             var self = this;
-
-            require(['bio'], function (bio) {
-                var _typedInstance = new typed("#typed", {
-                    strings: bio,
-                    cursorChar: '_',
-                    typeSpeed: 10,
-                    //backSpeed: 30,
-                    //backDelay: 2000,
-                    startDelay: 3000,
-                    callback: function () {
-
+            
+            var flkty = new Flickity('.carousel', {
+                cellAlign: 'left',
+                pageDots: false,
+                freeScroll: true,
+                wrapAround: true,
+                imagesLoaded: true,
+                percentPosition: true,
+                adaptiveHeight: true,
+                contain: true,
+                setGallerySize: false,
+                //prevNextButtons: false,
+                on: {
+                    change: function (index) {
+                        self.carouselIndex = index;
                     }
-                });
+                }
             });
 
-            //var flkty = new Flickity('.carousel', {
-            //    cellAlign: 'left',
-            //    pageDots: false,
-            //    freeScroll: true,
-            //    wrapAround: true,
-            //    imagesLoaded: true,
-            //    percentPosition: true,
-            //    adaptiveHeight: true,
-            //    contain: true,
-            //    setGallerySize: false,
-            //    //prevNextButtons: false,
-            //});
-
-            //flkty.on('change', function (index) {
-            //    self.carouselIndex = index;
-            //});
+            var iso = new Isotope('.skills', {
+                itemSelector: '.skill'
+            });
         }
     };
 
