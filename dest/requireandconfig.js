@@ -2178,7 +2178,7 @@ define('vue', ['vuejs'], function (vue) {
 
 require(['vue', 'utils', 'vue-particles', 'typed', "flickity"], function (Vue, utils, vueparticles, typed, Flickity) {
 
-    Vue.use(vueparticles);
+    //Vue.use(vueparticles);
     var model = {
         data: {
             currentView: 'create-post',
