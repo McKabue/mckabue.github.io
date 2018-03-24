@@ -355,18 +355,19 @@ html, body {
 
     .contact-number {
         width: 210px;
+        z-index: 1;
 
         .contact-wrapper {
             margin: auto;
             padding: 10px;
             display: block;
-            color: inherit;
+            color: $white;
             text-decoration: none;
 
+
             &:hover {
-                background: rgba(#eee, 0.4);
+                background: rgba($black, 0.4);
                 cursor: pointer;
-                text-shadow: 1px 2px 2px $black;
             }
 
             .img {

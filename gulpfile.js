@@ -107,10 +107,10 @@ gulp.task('app:build', ['app:clean'], function (cb) {
         .pipe(concat('requireandconfig.js'))
         .pipe(requireAndConfigFilter.restore)
 
-        ////Minify JavaScript
-        //.pipe(jsFilter)
-        //.pipe(uglify())
-        //.pipe(jsFilter.restore)
+        //Minify JavaScript
+        .pipe(jsFilter)
+        .pipe(uglify())
+        .pipe(jsFilter.restore)
         
         //Minify HTML
         .pipe(htmlFilter)

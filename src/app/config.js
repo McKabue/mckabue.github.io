@@ -31,67 +31,16 @@ define('vue', ['vuejs'], function (vue) {
     return vue;
 });
 
-require(['vue', 'utils', 'vue-particles', "flickity", "isotope"], function (Vue, utils, vueparticles, Flickity, Isotope) {
+require(['vue'], function (Vue) {
 
-    Vue.use(vueparticles);
     var model = {
         data: {
-            currentView: 'create-post',
-            message: "message",
-            carouselIndex: 0
+            
         },
         components: {
-            'create-post': {
-                template: '#create-template'
-            },
-            'manage-posts': function (resolve) {
-                require(['loader!manage-posts'], resolve); //require(['loader!text!components/manage-posts/manage-posts.html:components/manage-posts/manage-posts'], resolve);
-            },
-            //'vue-particles': vueparticles
-        },
-        //methods: {
-        //    rawHtml: function () {
-        //        var html = utils.vueTemplate({
-        //            template: '<div><input v-model="message" placeholder="edit me"><p>Message is: {{ message }}</p></div>',
-        //            data: {
-        //                message: "message"
-        //            }
-        //        });
-        //        document.body.appendChild(html);//document.getElementById('app').appendChild(html);
-        //        return html.innerHTML;
-        //    }
-        //},
-        created: function () {
-            var _timeout_ = setTimeout(function () {
-                var elem = document.getElementsByClassName('splash-screen')[0];
-                elem.parentNode.removeChild(elem)
-                clearTimeout(_timeout_);
-            }, 3000);
-        },
-        mounted: function () {
-            var self = this;
-            
-            var flkty = new Flickity('.carousel', {
-                cellAlign: 'left',
-                pageDots: false,
-                freeScroll: true,
-                wrapAround: true,
-                imagesLoaded: true,
-                percentPosition: true,
-                adaptiveHeight: true,
-                contain: true,
-                setGallerySize: false,
-                //prevNextButtons: false,
-                on: {
-                    change: function (index) {
-                        self.carouselIndex = index;
-                    }
-                }
-            });
-
-            var iso = new Isotope('.skills', {
-                itemSelector: '.skill'
-            });
+            'index-page': function (resolve) {
+                require(['loader!index-page'], resolve); //require(['loader!text!components/manage-posts/manage-posts.html:components/manage-posts/manage-posts'], resolve);
+            }
         }
     };
 
@@ -99,20 +48,20 @@ require(['vue', 'utils', 'vue-particles', "flickity", "isotope"], function (Vue,
 
     viewModel.$mount('#main-body-wrapper');
 
-    var headTag = document.head || document.getElementsByTagName('head')[0],
-        style = document.createElement('style'),
-        resize = function () {
-            //https://stackoverflow.com/a/8876069
-            var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-            var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-            style.type = 'text/css';
-            style.innerHTML = '.view-height { height: ' + h + 'px !important; }';
-            style.innerHTML += '.view-width { width: ' + w + 'px !important; }';
-        };
+    //var headTag = document.head || document.getElementsByTagName('head')[0],
+    //    style = document.createElement('style'),
+    //    resize = function () {
+    //        //https://stackoverflow.com/a/8876069
+    //        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    //        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    //        style.type = 'text/css';
+    //        style.innerHTML = '.view-height { height: ' + h + 'px !important; }';
+    //        style.innerHTML += '.view-width { width: ' + w + 'px !important; }';
+    //    };
 
-    headTag.appendChild(style);
-    window.addEventListener('resize', resize);
-    resize();
+    //headTag.appendChild(style);
+    //window.addEventListener('resize', resize);
+    //resize();
     
 });
 
