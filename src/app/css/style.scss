@@ -139,6 +139,18 @@ html, body {
             padding: 15px;
             background: rgba($black, 0.75);
             margin: 15px 0 0;
+
+            .name {
+                font-size: 30px;
+                font-weight: 600;
+                margin: 0 0 10px;
+                text-decoration: underline;
+            }
+
+            .name-tagline {
+                font-size: 20px;
+                font-style: italic;
+            }
         }
     }
 
@@ -153,7 +165,6 @@ html, body {
         background-size: cover;
         margin: 15px;
         /*padding: 15px;*/
-
         h3 {
             text-align: center;
         }
@@ -204,7 +215,6 @@ html, body {
                     font-size: 24px;
                     text-decoration: underline;
                 }
-
                 /** {
                     white-space: pre-wrap;
                 }
@@ -212,7 +222,6 @@ html, body {
                 p {
                     display: inline;
                 }*/
-
                 .typed-cursor {
                     opacity: 1;
                     font-weight: 100;

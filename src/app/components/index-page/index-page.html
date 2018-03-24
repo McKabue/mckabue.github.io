@@ -6,21 +6,21 @@
                 <img class="mckabue-small" src="/dest/images/mckabue-small.jpg" />
             </div>
             <div class="mckabue-contact">
-                What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="name">Kabue Charles</div>
+                <div class="name-tagline">
+                    A Software Architect, Poet, Entrepreneur, and a Philosopher;
+                </div>
             </div>
         </div>
         <div class="information">
             <div class="text-editor-wrap" style="word-wrap: break-word;">
                 <div class="title-bar">Kabue's Terminal</div>
                 <div class="text-body">
-                    <b>Hi, am here to tell you about Kabue Charles...</b>
-                    <p>He is a .NET and JavaScript Software Architect;  Poet; Entrepreneur; and a Philosopher;</p>
-                    <p>As a software architect, he is specialized in .NET.</p>
-                    <p>As an entrepreneur, he invests his time, money, energy and will in creating things that will make lives better.</p>
-                    <p>As a philosopher, Kabue desires to know a lot about people and his environment.</p>
-                    <p>As a poet, he writes at <a target="_blank" href="//mckabue.wordpress.com">mckabue.wordpress.com</a>.</p>
-                    <p>As a man, he is a modest moralist, a centrist, a progressive evolutionist and a man of quotable quotes.<span class="typed-cursor" style="animation-iteration-count: infinite;">_</span></p>
+                    <p>As a software architect, i am specialized in .NET and JavaScript.</p>
+                    <p>As an entrepreneur, i invest my time, money, energy and will in creating things that will make lives better, like <b>Curriculum.co.ke</b>, and <b>Oark Limited</b></p>
+                    <p>As a philosopher, i learn about hapiness, people and my environment.</p>
+                    <p>As a poet, i write about human transcendence.</p>
+                    <p>As a man, i am modest moralist, a centrist, a progressive evolutionist and a man of quotable quotes.<span class="typed-cursor" style="animation-iteration-count: infinite;">_</span></p>
                 </div>
             </div>
         </div>
@@ -29,47 +29,11 @@
     <div class="show-case">
         <div class="previous-work">Previous Works</div>
         <div class="carousel">
-            <div class="carousel-cell">
-                <img src="/dest/images/curriculum.co.ke.PNG" alt="orange tree" />
-
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/curriculum.co.ke.2.PNG" alt="One World Trade" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/curriculum.co.ke.3.PNG" alt="drizzle" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/curriculum.co.ke.4.PNG" alt="cat nose" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/daktari.net.PNG" alt="contrail" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/daktari.net.2.PNG" alt="golden hour" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/daktari.net.3.PNG" alt="flight formation" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/daktari.net.4.PNG" alt="flight formation" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/daktari.net.5.PNG" alt="flight formation" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/daktari.net.6.PNG" alt="flight formation" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/oarklimited.com.PNG" alt="flight formation" />
-            </div>
-            <div class="carousel-cell">
-                <img src="/dest/images/oarklimited.com.1.PNG" alt="flight formation" />
-            </div>
         </div>
         <div class="carousel-caption">
-            <p>{{carouselIndex}}</p>
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <transition enter-active-class="animated fadeInLeft" leave-active-class="animated fadeOut"  mode="out-in" appear>
+                <p v-html="rawHtml"></p>
+            </transition>
         </div>
     </div>
 

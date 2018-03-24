@@ -1,1 +1,12 @@
-define(["vuejs"],function(e){return{created:function(){},methods:{}}});
+define(['vuejs'], function (vue) {
+    var myMixin = {
+        created: function () {
+            
+        },
+        methods: {
+
+        }
+    };
+
+    return myMixin;
+});

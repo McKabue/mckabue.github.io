@@ -4,7 +4,7 @@ define(['vue', 'utils', 'vue-particles', "flickity", "isotope"], function (Vue, 
     return {
         data: function () {
             return {
-                carouselIndex: 0
+                rawHtml: ''
             }
         },
         components: {
@@ -28,7 +28,64 @@ define(['vue', 'utils', 'vue-particles', "flickity", "isotope"], function (Vue, 
             }, 500);
         },
         mounted: function () {
-            var self = this;
+            var self = this,
+                images = [
+                    {
+                        path: "/dest/images/curriculum.co.ke.PNG",
+                        description: "/dest/images/curriculum.co.ke.PNG"
+                    },
+                    {
+                        path: "/dest/images/curriculum.co.ke.2.PNG",
+                        description: "/dest/images/curriculum.co.ke.2.PNG"
+                    },
+                    {
+                        path: "/dest/images/curriculum.co.ke.3.PNG",
+                        description: "/dest/images/curriculum.co.ke.3.PNG"
+                    },
+                    {
+                        path: "/dest/images/curriculum.co.ke.4.PNG",
+                        description: "/dest/images/curriculum.co.ke.PNG"
+                    },
+                    {
+                        path: "/dest/images/daktari.net.PNG",
+                        description: "/dest/images/daktari.net.PNG"
+                    },
+                    {
+                        path: "/dest/images/daktari.net.2.PNG",
+                        description: "/dest/images/daktari.net.2.PNG"
+                    },
+                    {
+                        path: "/dest/images/daktari.net.3.PNG",
+                        description: "/dest/images/daktari.net.3.PNG"
+                    },
+                    {
+                        path: "/dest/images/daktari.net.4.PNG",
+                        description: "/dest/images/daktari.net.4.PNG"
+                    },
+                    {
+                        path: "/dest/images/daktari.net.5.PNG",
+                        description: "/dest/images/daktari.net.5.PNG"
+                    },
+                    {
+                        path: "/dest/images/daktari.net.6.PNG",
+                        description: "/dest/images/daktari.net.6.PNG"
+                    },
+                    {
+                        path: "/dest/images/oarklimited.com.PNG",
+                        description: "/dest/images/oarklimited.com.PNG"
+                    },
+                    {
+                        path: "/dest/images/oarklimited.com.1.PNG",
+                        description: "/dest/images/oarklimited.com.1.PNG"
+                    }
+                ],
+                imageDescription = function (image) {
+                    var element = utils.vueTemplate({
+                        template: '<div class="">{{description}}</div>',
+                        data: image
+                    });
+                    self.rawHtml = element.innerHTML;
+                };
 
             var flkty = new Flickity('.carousel', {
                 cellAlign: 'left',
@@ -42,10 +99,22 @@ define(['vue', 'utils', 'vue-particles', "flickity", "isotope"], function (Vue, 
                 setGallerySize: false,
                 //prevNextButtons: false,
                 on: {
+                    ready: function () {
+                        imageDescription(images[0]);
+                    },
                     change: function (index) {
-                        self.carouselIndex = index;
+                        imageDescription(images[index]);
                     }
                 }
+            });
+
+            images.forEach(function (image) {
+                var element = utils.vueTemplate({
+                    template: '<div class="carousel-cell"><img :src="path" :alt="description" /></div>',
+                    data: image
+                });
+
+                flkty.append(element)
             });
 
             var iso = new Isotope('.skills', {
