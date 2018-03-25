@@ -9,8 +9,7 @@ requirejs.config({
         "particlesjs": "../vendors/vue-particles/particles",
         "vue-particles": "../vendors/vue-particles/vue-particles",
         'typed': "../vendors/typed.js/typed.min",
-        "flickity": "../vendors/flickity/flickity.pkgd.min",
-        "isotope": "//unpkg.com/isotope-layout@3/dist/isotope.pkgd.min"
+        "flickity": "../vendors/flickity/flickity.pkgd.min"
     },
     waitSeconds: 7,
     shim: {

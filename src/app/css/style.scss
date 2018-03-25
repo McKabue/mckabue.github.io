@@ -48,12 +48,18 @@ html, body {
     margin: 0;
     font-family: $productsans;
     background-image: $background-gradient-bisexual;
+    overflow-x: hidden;
+    /*max-width: 100%;*/
     /*background: #003eaa;
     background-image: url(https://www.mozilla.org/media/img/firefox/whatsnew/fox-tail.bca93500c111.png), linear-gradient(87deg,#6a11cb 0,#2575fc 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;*/
+}
+
+.main {
+    z-index: 10;
 }
 
 .splash-screen {
@@ -104,17 +110,20 @@ html, body {
     display: flex;
     height: 100%;
     position: relative;
+    /*align-items: center;*/
 
-    .image-and-contact {
+    .image-top {
         color: $white;
         width: 35%;
         margin: 15px 0 15px 15px;
+        /*align-items: center;*/
 
         .image-box {
             width: 60%;
             margin: auto;
             overflow: hidden;
             position: relative;
+
 
             .mckabue-big {
                 max-width: 100%;
@@ -133,29 +142,9 @@ html, body {
                 border: 2px solid #fff;
             }
         }
-
-
-        .mckabue-contact {
-            padding: 15px;
-            background: rgba($black, 0.75);
-            margin: 15px 0 0;
-
-            .name {
-                font-size: 30px;
-                font-weight: 600;
-                margin: 0 0 10px;
-                text-decoration: underline;
-            }
-
-            .name-tagline {
-                font-size: 20px;
-                font-style: italic;
-            }
-        }
     }
 
     .information {
-        font-family: $sharetechmono;
         color: $white;
         flex: 1;
         /*background-color: rgba($black, 0.3);
@@ -203,25 +192,30 @@ html, body {
                 padding: 10px;
                 color: #f0f0f0;
                 text-shadow: #000 0px 1px 0px;
-                font-family: "Consolas", "Courier New", "Courier";
-                -webkit-transition: all 0.5s ease-out;
-                -moz-transition: all 0.5s ease-out;
-                -ms-transition: all 0.5s ease-out;
-                -o-transition: all 0.5s ease-out;
-                transition: all 0.5s ease-out;
                 font-size: 20px;
 
+                .name {
+                    font-size: 30px;
+                    font-weight: 600;
+                    margin: 0 0 10px;
+                    text-decoration: underline;
+                }
+
+                .name-tagline {
+                    font-size: 20px;
+                    font-style: italic;
+                }
+                * {
+                    white-space: pre-wrap;
+                }
+                p {
+                    display: inline;
+                }
                 b {
                     font-size: 24px;
                     text-decoration: underline;
                 }
-                /** {
-                    white-space: pre-wrap;
-                }
 
-                p {
-                    display: inline;
-                }*/
                 .typed-cursor {
                     opacity: 1;
                     font-weight: 100;
@@ -237,86 +231,71 @@ html, body {
 }
 
 .show-case {
-    position: relative;
-    color: $white;
-    /*margin: 15px;*/
-    padding: 15px;
-    width: 100%;
-    height: 100vh;
-    z-index: 10;
+    margin: 15px;
 
-    .carousel {
-        /*background: $black;*/
-        width: 100%;
-        /*min-height: 100%;*/
-        height: 100%;
+    .item {
+        display: flex;
 
-        .carousel-cell {
-            margin-right: 20px;
-            height: auto;
-            /*overflow: hidden;*/
-            width: 100%;
-            /*min-height: 100%;*/
+        .item-image {
+            width: 50%;
+            overflow: hidden;
+            position: relative;
+
             img {
-                height: auto;
                 width: 100%;
-                /*min-height: 100%;*/
+                height: auto;
+            }
+
+            .shadow {
+                position: absolute;
+                z-index: 1;
+                /*-moz-box-shadow: inset 0 0 10px #000000;
+                -webkit-box-shadow: inset 0 0 10px #000000;*/
+                box-shadow: inset 0 0 200px #000000;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 100%;
+                width: 100%;
             }
         }
 
-
-        .flickity-button {
-            outline: 0;
-            box-shadow: 0px 0px 0px 5px #19f;
+        .item-text {
+            width: 50%;
         }
     }
+}
 
-    .carousel-caption {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        /*margin: 0 auto;*/ //https://stackoverflow.com/a/16758185
-        /*width: 70%;*/
-        background: rgba($black, .75);
-        padding: 15px;
-        font-size: 18px;
-        text-shadow: 2px 2px 2px rgba($black, 1);
-    }
-
-    .previous-work {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        width: 300px;
-        z-index: 20;
-        font-size: 30px;
-        margin: 0 auto;
-        background: #19f;
-        text-align: center;
-        font-weight: 700;
-        padding: 4px 0;
-        border: 2px dotted #fff;
-    }
+.offers-title {
+    display: table;
+    font-size: 30px;
+    margin: 50px auto 0;
+    font-weight: 700;
+    padding: 4px 4px 0;
+    border-bottom: 4px solid #19f;
+    background: rgba($white, .8);
 }
 
 .offers {
     display: flex;
 
-
     .offer--item {
         margin: 15px;
-        flex:1;
+        flex: 1;
 
         .offer--item--img {
-            height: 150px;
+            height: 200px;
             margin: auto;
             display: table;
+            max-width: 100%;
         }
 
         .offer--item--decs {
             position: relative;
+            background: rgba($white, .8);
+            padding: 5px;
+
 
             .offer--item--title {
                 position: absolute;
@@ -326,31 +305,48 @@ html, body {
                 text-align: right;
                 font-size: 30px;
                 color: $white;
+                background: rgba($black, 0.5);
+                padding: 5px;
             }
         }
     }
 }
 
 .skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0 40px;
 
     .skill {
-        position: relative;
-        float: left;
-        width: 100px;
-        height: 100px;
-        margin: 5px;
-        padding: 10px;
-        background: #888;
-        color: #262524;
+        width: 210px;
+        z-index: 1;
 
-        &.medium {
-            width: 200px;
-            height: 200px;
-        }
+       
 
-        &.large {
-            width: 200px;
-            height: 300px;
+        .skill-wrapper {
+            margin: auto;
+            padding: 10px;
+            display: block;
+            color: $white;
+            text-decoration: none;
+
+
+            &:hover {
+                background: rgba($black, 0.4);
+                cursor: pointer;
+            }
+
+            .img {
+                margin: 0 auto 10px;
+                display: block;
+            }
+
+            .name {
+                text-align: center;
+                display: block;
+            }
         }
     }
 }
