@@ -1,14 +1,1 @@
-
-define([], function () {
-    var info = [
-        // "<b>Hi, am here to tell you about Kabue Charles...</b>",
-        "<p><br/>As a software architect, i am specialized in .NET and JavaScript.</p>",
-        "<p><br/>As an entrepreneur, i invest my time, money, energy and will in creating things that will make lives better, like <b>Curriculum.co.ke</b> and <b>Oark Limited</b></p>",
-        "<p><br/>As a philosopher, i learn about hapiness, people and my environment.</p>",
-        "<p><br/>As a poet, i write about human transcendence.</p>",
-        "<p><br/>As a man, i am modest moralist, a centrist, a progressive evolutionist and a man of quotable quotes.</p>"
-    ];
-
-
-    return [info.join('^100\n')];
-});
+define([],function(){return[["<p><br/>As a software architect, i am specialized in .NET and JavaScript.</p>","<p><br/>As an entrepreneur, i invest my time, money, energy and will in creating things that will make lives better, like <b>Curriculum.co.ke</b> and <b>Oark Limited</b></p>","<p><br/>As a philosopher, i learn about hapiness, people and my environment.</p>","<p><br/>As a poet, i write about human transcendence.</p>","<p><br/>As a man, i am modest moralist, a centrist, a progressive evolutionist and a man of quotable quotes.</p>"].join("^100\n")]});

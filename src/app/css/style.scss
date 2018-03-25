@@ -317,13 +317,13 @@ html, body {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    margin: 0 0 40px;
+    margin: 15px 15px 40px;
 
     .skill {
         width: 210px;
         z-index: 1;
 
-       
+
 
         .skill-wrapper {
             margin: auto;
@@ -341,6 +341,7 @@ html, body {
             .img {
                 margin: 0 auto 10px;
                 display: block;
+                max-width: 50px;
             }
 
             .name {
@@ -356,7 +357,7 @@ html, body {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    margin: 0 0 40px;
+    margin: 15px 15px 40px;
 
     .contact-number {
         width: 210px;
