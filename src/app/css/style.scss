@@ -342,10 +342,11 @@ html, body {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    margin: 15px 15px 40px;
+    padding: 15px 15px 40px;
 
     .skill {
-        width: 210px;
+
+        width: auto;
         z-index: 1;
 
 
@@ -365,8 +366,9 @@ html, body {
 
             .img {
                 margin: 0 auto 10px;
-                display: block;
-                max-width: 50px;
+                display: table;
+                height: 100px;
+                max-height: 100px;
             }
 
             .name {
