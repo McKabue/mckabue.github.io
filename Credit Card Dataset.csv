@@ -1,0 +1,288 @@
+Transaction_Number,Customer_ID,Time_stamp,Category,Amount_Transacted,First,Last,Gender,Street,City,Is_fraud,Credit_Limit,No_of_Transactions,Amounts_received,Card_Type,Authentication
+19,4.96,1/1/2019 0:12,grocery_pos,965721,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,2,82475,Platinum,Success
+1009,4.96,1/1/2019 12:44,food_dining,413052,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,1,32555,Platinum,Success
+2426,4.96,2/1/2019 0:25,gas_transport,584822,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,1,10173,Platinum,Success
+2851,4.96,2/1/2019 12:01,misc_pos,980146,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,1,12342,Platinum,Success
+3958,4.96,3/1/2019 10:54,misc_net,1926072,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,1,1000000,3,17157,Platinum,Failed
+4223,4.96,3/1/2019 15:19,shopping_net,482394,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,1,10003,Platinum,Success
+4603,4.96,3/1/2019 21:32,food_dining,718346,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,2,14325,Platinum,Success
+5763,4.96,4/1/2019 17:57,health_fitness,491598,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,3,15098,Platinum,Success
+5792,4.96,4/1/2019 18:12,shopping_pos,848852,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,1,19224,Platinum,Success
+5819,4.96,4/1/2019 18:39,misc_pos,396139,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,2,67932,Platinum,Success
+7104,4.96,5/1/2019 16:38,shopping_net,856974,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,1,28006,Platinum,Success
+7919,4.96,6/1/2019 3:45,grocery_pos,855990,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,2,27803,Platinum,Success
+8312,4.96,6/1/2019 9:49,gas_transport,924776,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,2,19226,Platinum,Success
+8604,4.96,6/1/2019 13:27,home,204850,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,1,25435,Platinum,Success
+9054,4.96,6/1/2019 17:56,health_fitness,780669,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,3,30283,Platinum,Success
+9273,4.96,6/1/2019 20:07,shopping_net,887442,Kenneth,Robinson,Male,269 Sanchez Rapids,Elizabeth,0,1000000,1,64711,Platinum,Success
+51250,6.59,30/01/2019 23:16,kids_pets,297820,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,2,42187,Platinum,Success
+51528,6.59,31/01/2019 05:41,grocery_net,687879,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,3,98637,Platinum,Success
+53779,6.59,1/2/2019 20:58,personal_care,738456,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,1,21304,Platinum,Success
+56675,6.59,3/2/2019 15:56,shopping_net,378535,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,1,73556,Platinum,Success
+59880,6.59,4/2/2019 23:48,shopping_pos,334116,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,2,36610,Platinum,Success
+61639,6.59,5/2/2019 19:02,home,772360,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,1,80962,Platinum,Success
+70418,6.59,11/2/2019 11:08,misc_net,580796,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,1,46701,Platinum,Success
+71568,6.59,11/2/2019 20:56,shopping_pos,855465,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,1,66856,Platinum,Success
+77745,6.59,15/02/2019 19:25,food_dining,978989,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,3,33911,Platinum,Success
+79300,6.59,16/02/2019 21:09,health_fitness,451874,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,1,62217,Platinum,Success
+79838,6.59,17/02/2019 05:09,grocery_net,670750,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,2,43442,Platinum,Success
+80317,6.59,17/02/2019 11:50,grocery_pos,977951,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,3,65584,Platinum,Success
+81191,6.59,17/02/2019 20:44,kids_pets,403466,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,1,98793,Platinum,Success
+82477,6.59,18/02/2019 12:02,personal_care,861177,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,1,70277,Platinum,Success
+83595,6.59,18/02/2019 21:20,home,528612,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,1,22539,Platinum,Success
+84070,6.59,19/02/2019 01:55,grocery_pos,339670,Amanda,Molina,Female,8425 Daniel Knolls Suite 288,Philadelphia,0,1000000,3,29657,Platinum,Success
+85218,6.59,20/02/2019 22:05,misc_net,326162,Amanda,Molina,Female,,Philadelphia,1,1000000,1,0,Platinum,Success
+90210,6.59,20/02/2019 22:10,misc_net,390534,Amanda,Molina,Female,,Philadelphia,1,1000000,2,0,Platinum,Success
+40230,6.59,20/02/2019 22:18,misc_net,204850,Amanda,Molina,Female,,Philadelphia,1,1000000,3,0,Platinum,Success
+77770,6.59,20/02/2019 22:31,misc_net,331349,Amanda,Molina,Female,,Philadelphia,1,1000000,4,0,Platinum,Success
+22045,6.59,20/02/2019 22:51,misc_net,515263,Amanda,Molina,Female,,Philadelphia,1,,5,0,Platinum,Success
+19277,2.23,12/1/2019 18:03,home,563751,Thomas,Hale,Male,949 Smith Parkway,Cazenovia,0,700000,1,22770,Gold,Success
+20013,2.23,13/01/2019 04:41,gas_transport,161930,Thomas,Hale,Male,949 Smith Parkway,Cazenovia,0,700000,2,86409,Gold,Success
+21708,2.23,14/01/2019 00:05,grocery_net,352806,Thomas,Hale,Male,949 Smith Parkway,Cazenovia,0,700000,3,44060,Gold,Success
+22174,2.23,14/01/2019 05:50,grocery_net,207755,Thomas,Hale,Male,949 Smith Parkway,Cazenovia,0,700000,1,95466,Gold,Success
+22386,2.23,14/01/2019 08:35,misc_pos,489540,Thomas,Hale,Male,949 Smith Parkway,Cazenovia,0,700000,1,25557,Gold,Success
+22846,2.23,14/01/2019 13:49,kids_pets,274395,Thomas,Hale,Male,949 Smith Parkway,Cazenovia,0,700000,1,33735,Gold,Success
+23536,2.23,14/01/2019 19:17,entertainment,,Thomas,Hale,Male,949 Smith Parkway,Cazenovia,0,700000,1,66024,Gold,Success
+23633,2.23,14/01/2019 20:05,home,105690,Thomas,Hale,Male,949 Smith Parkway,Cazenovia,0,700000,2,40135,Gold,Success
+23667,2.23,14/01/2019 20:17,health_fitness,694888,Thomas,Hale,Male,949 Smith Parkway,Cazenovia,0,700000,1,67884,Gold,Success
+48001,3.73,29/01/2019 01:39,grocery_pos,211899,Bobby,Smith,Male,3495 Williams Stream,San Diego,0,400000,1,47886,Signature,Success
+48035,3.73,29/01/2019 01:59,misc_net,277645,Bobby,Smith,Male,3495 Williams Stream,San Diego,0,400000,1,80493,Signature,Success
+48167,3.73,29/01/2019 03:59,grocery_pos,326162,Bobby,Smith,Male,3495 Williams Stream,San Diego,0,400000,3,88834,Signature,Success
+50125,3.73,29/01/2019 23:36,shopping_pos,316946,Bobby,Smith,Male,3495 Williams Stream,San Diego,0,400000,1,26241,Signature,Success
+50959,3.73,30/01/2019 17:57,home,122373,Bobby,Smith,Male,3495 Williams Stream,San Diego,0,400000,2,24935,Signature,Success
+586,6.04,1/1/2019 7:36,grocery_pos,640653,Bradley,Martinez,Male,3426 David Divide Suite 717,Burns Flat,0,900000,3,89201,Platinum,Success
+5240,6.04,4/1/2019 10:07,grocery_pos,745493,Bradley,Martinez,Male,3426 David Divide Suite 717,Burns Flat,0,900000,2,31362,Platinum,Success
+5886,6.04,4/1/2019 19:25,home,868021,Bradley,Martinez,Male,3426 David Divide Suite 717,Burns Flat,0,900000,3,31436,Platinum,Success
+29421,6.04,5/2/2019 7:25,misc_pos,688577,Bradley,Martinez,Male,,Cape Town,1,900000,1,83263,Platinum,Success
+54021,6.04,5/2/2019 8:25,misc_pos,390534,Bradley,Martinez,Male,,Cape Towm ,1,900000,2,0,Platinum,Success
+11817,6.04,7/1/2019 21:33,personal_care,284923,Bradley,Martinez,Male,3426 David Divide Suite 717,Burns Flat,0,900000,1,55134,Platinum,Success
+12867,6.04,8/1/2019 10:02,shopping_net,814422,Bradley,Martinez,Male,3426 David Divide Suite 717,Burns Flat,0,900000,1,73503,Platinum,Success
+15007,6.04,9/1/2019 14:31,health_fitness,599741,Bradley,Martinez,Male,3426 David Divide Suite 717,Burns Flat,0,900000,1,57402,Platinum,Success
+16977,6.04,11/1/2019 3:10,grocery_pos,804560,Bradley,Martinez,Male,3426 David Divide Suite 717,Burns Flat,0,900000,1,40230,Platinum,Success
+788,5.81,1/1/2019 10:08,gas_transport,996291,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,2,73312,Platinum,Success
+1654,5.81,1/1/2019 17:41,health_fitness,477553,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,1,54597,Platinum,Success
+2922,5.81,2/1/2019 13:22,personal_care,216028,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,1,37157,Platinum,Success
+3930,5.81,3/1/2019 10:02,entertainment,275427,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,1,32628,Platinum,Success
+4779,5.81,4/1/2019 0:13,grocery_pos,722048,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,3,27905,Platinum,Success
+5499,5.81,4/1/2019 14:23,kids_pets,292365,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,1,90010,Platinum,Success
+5901,5.81,4/1/2019 19:32,kids_pets,400393,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,2,54528,Platinum,Success
+6444,5.81,5/1/2019 4:25,entertainment,219720,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,3,72258,Platinum,Success
+6503,5.81,5/1/2019 5:45,shopping_pos,981404,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,1,41106,Platinum,Success
+8281,5.81,6/1/2019 9:13,grocery_net,639670,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,2,66091,Platinum,Success
+9483,5.81,6/1/2019 22:02,personal_care,814333,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,1,55737,Platinum,Success
+9920,5.81,7/1/2019 2:50,shopping_pos,569582,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,2,54979,Platinum,Success
+10138,5.81,7/1/2019 5:37,shopping_net,954111,Jessica,Benitez,Female,31281 Thomas Inlet,Montrose,0,1000000,2,34013,Platinum,Success
+13096,3.72,8/1/2019 12:34,home,235267,Rick,Martinez,Male,062 Poole Hollow Apt. 815,Deadwood,0,400000,1,26541,Signature,Success
+14659,3.72,9/1/2019 6:27,grocery_net,193651,Rick,Martinez,Male,062 Poole Hollow Apt. 815,Deadwood,0,400000,2,35818,Signature,Success
+14729,3.72,9/1/2019 8:18,grocery_pos,972306,Rick,Martinez,Male,062 Poole Hollow Apt. 815,Deadwood,1,400000,3,99168,Signature,Failed
+14930,3.72,9/1/2019 13:13,kids_pets,107647,Rick,Martinez,Male,062 Poole Hollow Apt. 815,Deadwood,0,400000,1,53376,Signature,Success
+16829,3.72,11/1/2019 0:03,gas_transport,334396,Rick,Martinez,Male,062 Poole Hollow Apt. 815,Deadwood,0,400000,2,82974,Signature,Success
+18808,3.72,12/1/2019 11:46,grocery_pos,224414,Rick,Martinez,Male,062 Poole Hollow Apt. 815,Deadwood,0,400000,1,44152,Signature,Success
+19094,3.72,12/1/2019 15:40,kids_pets,203194,Rick,Martinez,Male,062 Poole Hollow Apt. 815,Deadwood,0,400000,2,55078,Signature,Success
+23501,3.72,14/01/2019 19:00,health_fitness,250410,Rick,Martinez,Male,062 Poole Hollow Apt. 815,Deadwood,0,400000,2,83587,Signature,Success
+24286,3.72,15/01/2019 02:08,misc_net,330697,Rick,Martinez,Male,062 Poole Hollow Apt. 815,Deadwood,0,400000,1,54049,Signature,Success
+13273,3.58,8/1/2019 14:08,misc_pos,590800,Deborah,Fisher,Female,1911 Fisher Brook,Kirtland Afb,0,600000,2,52597,Gold,Success
+14592,3.58,9/1/2019 4:22,misc_net,438570,Deborah,Fisher,Female,1911 Fisher Brook,Kirtland Afb,0,600000,3,78939,Gold,Success
+14931,3.58,9/1/2019 13:13,kids_pets,380409,Deborah,Fisher,Female,1911 Fisher Brook,Kirtland Afb,0,600000,1,68947,Gold,Success
+15404,3.58,9/1/2019 21:22,shopping_pos,501631,Deborah,Fisher,Female,1911 Fisher Brook,Kirtland Afb,0,600000,2,49907,Gold,Success
+15518,3.58,9/1/2019 23:04,health_fitness,390534,Deborah,Fisher,Female,1911 Fisher Brook,Kirtland Afb,0,600000,1,66510,Gold,Success
+16093,3.58,10/1/2019 13:11,shopping_net,423661,Deborah,Fisher,Female,1911 Fisher Brook,Kirtland Afb,0,600000,2,99807,Gold,Success
+16186,3.58,10/1/2019 14:23,home,436294,Deborah,Fisher,Female,1911 Fisher Brook,Kirtland Afb,0,600000,2,93420,Gold,Success
+25078,4.04,15/01/2019 12:27,home,537050,Jeffrey,Lewis,Male,24255 Bryan Square,Palermo,0,900000,1,82342,Platinum,Success
+26844,4.04,16/01/2019 08:11,shopping_pos,899343,Jeffrey,Lewis,Male,24255 Bryan Square,Palermo,0,900000,1,28291,Platinum,Success
+27214,4.04,16/01/2019 15:30,home,834691,Jeffrey,Lewis,Male,24255 Bryan Square,Palermo,0,900000,2,41867,Platinum,Success
+28444,4.04,17/01/2019 16:12,entertainment,240216,Jeffrey,Lewis,Male,24255 Bryan Square,Palermo,0,900000,1,80494,Platinum,Success
+30280,4.04,18/01/2019 23:58,personal_care,424370,Jeffrey,Lewis,Male,24255 Bryan Square,Palermo,0,900000,2,68660,Platinum,Success
+30432,4.04,19/01/2019 03:08,misc_net,593991,Jeffrey,Lewis,Male,24255 Bryan Square,Palermo,0,900000,2,56122,Platinum,Success
+30789,4.04,19/01/2019 11:06,misc_pos,768467,Jeffrey,Lewis,Male,24255 Bryan Square,Palermo,0,900000,1,76253,Platinum,Success
+32444,4.04,20/01/2019 11:41,grocery_pos,781959,Jeffrey,Lewis,Male,24255 Bryan Square,Palermo,0,900000,2,32794,Platinum,Success
+33825,4.04,21/01/2019 02:22,misc_pos,1553907,Jeffrey,Lewis,Male,24255 Bryan Square,Palermo,1,900000,3,49298,Platinum,Failed
+6049,5.72,4/1/2019 21:34,kids_pets,308622,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,1,36923,Gold,Success
+6590,5.72,5/1/2019 7:26,grocery_pos,312334,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,2,98383,Gold,Success
+9840,5.72,7/1/2019 1:56,shopping_pos,586474,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,1,77671,Gold,Success
+9955,5.72,7/1/2019 3:19,food_dining,521237,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,2,66463,Gold,Success
+10331,5.72,7/1/2019 8:07,misc_net,446266,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,2,46672,Gold,Success
+12229,5.72,8/1/2019 1:38,grocery_pos,511168,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,1,89638,Gold,Success
+13613,5.72,8/1/2019 17:12,health_fitness,608438,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,1,71200,Gold,Success
+14477,5.72,9/1/2019 1:17,gas_transport,473519,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,2,24686,Gold,Success
+15460,5.72,9/1/2019 22:10,home,688577,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,1,85872,Gold,Success
+16333,5.72,10/1/2019 16:46,personal_care,686619,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,2,58188,Gold,Success
+18324,5.72,12/1/2019 1:11,misc_pos,255982,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,2,64642,Gold,Success
+18510,5.72,12/1/2019 5:43,entertainment,464656,Susan,Mills,Female,005 Cody Estates,Louisville,0,700000,1,68708,Gold,Success
+44421,1.8,27/01/2019 14:02,misc_pos,212319,Richard,Barnes,Male,1339 Johnson Landing Suite 007,De Lancey,0,600000,3,97302,Gold,Success
+47483,1.8,28/01/2019 21:06,shopping_net,307563,Richard,Barnes,Male,1339 Johnson Landing Suite 007,De Lancey,0,600000,1,94439,Gold,Success
+47941,1.8,29/01/2019 00:51,gas_transport,407564,Richard,Barnes,Male,1339 Johnson Landing Suite 007,De Lancey,0,600000,2,41442,Gold,Success
+48097,1.8,29/01/2019 03:04,gas_transport,331349,Richard,Barnes,Male,1339 Johnson Landing Suite 007,De Lancey,0,600000,3,40850,Gold,Success
+49050,1.8,29/01/2019 14:42,misc_net,391325,Richard,Barnes,Male,1339 Johnson Landing Suite 007,De Lancey,0,600000,2,98446,Gold,Success
+50302,1.8,30/01/2019 02:57,gas_transport,530244,Richard,Barnes,Male,1339 Johnson Landing Suite 007,De Lancey,0,600000,3,91999,Gold,Success
+53221,1.8,1/2/2019 13:26,food_dining,568736,Richard,Barnes,Male,1339 Johnson Landing Suite 007,De Lancey,0,600000,1,53510,Gold,Success
+54282,1.8,2/2/2019 5:34,grocery_net,517448,Richard,Barnes,Male,1339 Johnson Landing Suite 007,De Lancey,0,600000,1,97830,Gold,Success
+56980,1.8,3/2/2019 18:53,misc_net,588531,Richard,Barnes,Male,1339 Johnson Landing Suite 007,De Lancey,0,600000,1,88040,Gold,Success
+432390,5.02,13/07/2019 01:26,grocery_pos,474729,Angelica,Lopez,Female,9599 Washington Field Suite 238,New York City,0,750000,1,44724,Gold,Success
+432649,5.02,13/07/2019 03:46,grocery_pos,590841,Angelica,Lopez,Female,9599 Washington Field Suite 238,New York City,0,750000,2,38219,Gold,Success
+435491,5.02,13/07/2019 23:41,shopping_pos,608427,Angelica,Lopez,Female,9599 Washington Field Suite 238,New York City,0,750000,1,77585,Gold,Success
+435755,5.02,14/07/2019 01:50,grocery_pos,719835,Angelica,Lopez,Female,9599 Washington Field Suite 238,New York City,1,750000,1,832630,Gold,Failed
+435996,5.02,14/07/2019 03:52,gas_transport,375139,Angelica,Lopez,Female,9599 Washington Field Suite 238,New York City,0,750000,1,45852,Gold,Success
+438059,5.02,14/07/2019 17:06,shopping_pos,229589,Angelica,Lopez,Female,9599 Washington Field Suite 238,New York City,0,750000,3,44099,Gold,Success
+439223,5.02,14/07/2019 22:59,shopping_pos,376453,Angelica,Lopez,Female,9599 Washington Field Suite 238,New York City,0,750000,1,49012,Gold,Success
+41032,6.3,25/01/2019 06:51,gas_transport,360009,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,2,89707,Platinum,Success
+47513,6.3,28/01/2019 21:27,kids_pets,770346,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,3,43194,Platinum,Success
+48231,6.3,29/01/2019 04:53,gas_transport,489043,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,1,22807,Platinum,Success
+52647,6.3,1/2/2019 2:25,grocery_pos,503037,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,2,75764,Platinum,Success
+54616,6.3,2/2/2019 12:30,home,731261,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,1,91987,Platinum,Success
+56434,6.3,3/2/2019 13:25,food_dining,262755,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,2,60561,Platinum,Success
+59004,6.3,4/2/2019 16:56,health_fitness,825475,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,2,50085,Platinum,Success
+63783,6.3,7/2/2019 10:12,misc_net,922630,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,1,48813,Platinum,Success
+64568,6.3,7/2/2019 22:36,health_fitness,752172,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,2,93782,Platinum,Success
+65858,6.3,8/2/2019 20:44,entertainment,418009,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,3,31587,Platinum,Success
+66160,6.3,9/2/2019 1:20,shopping_pos,994537,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,1,56762,Platinum,Success
+66406,6.3,9/2/2019 6:56,misc_net,922206,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,0,1000000,2,55512,Platinum,Success
+191696,3.86,8/4/2019 19:54,misc_pos,389097,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,1,49884,Platinum,Success
+192429,3.86,9/4/2019 1:15,gas_transport,880778,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,2,75261,Platinum,Success
+193412,3.86,9/4/2019 18:31,personal_care,327971,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,2,49454,Platinum,Success
+194452,3.86,10/4/2019 11:29,grocery_pos,689201,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,1,99675,Platinum,Success
+196303,3.86,11/4/2019 12:33,personal_care,792440,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,2,24557,Platinum,Success
+196817,3.86,11/4/2019 18:11,home,,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,3,97438,Platinum,Success
+197319,3.86,12/4/2019 0:21,gas_transport,502399,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,1,84663,Platinum,Success
+198723,3.86,12/4/2019 19:09,home,272804,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,2,63547,Platinum,Success
+200826,3.86,13/04/2019 15:44,kids_pets,613280,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,1,22451,Platinum,Success
+203293,3.86,14/04/2019 13:06,shopping_pos,876491,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,2,47867,Platinum,Success
+203323,3.86,14/04/2019 13:19,food_dining,,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,2,99070,Platinum,Success
+204950,3.86,14/04/2019 23:38,home,294184,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,1,22856,Platinum,Success
+205941,3.86,15/04/2019 09:19,gas_transport,515263,Jacqueline,Curry,Female,3047 Jeff Place,Marathon,0,900000,1,29773,Platinum,Success
+105325,2.13,2/3/2019 12:44,kids_pets,338527,Rebecca,Conley,Female,181 Moreno Light Apt. 215,Tomahawk,0,500000,1,55926,Signature,Success
+105392,2.13,2/3/2019 13:12,misc_pos,334683,Rebecca,Conley,Female,181 Moreno Light Apt. 215,Tomahawk,0,500000,2,80990,Signature,Success
+106083,2.13,2/3/2019 18:13,shopping_net,454570,Rebecca,Conley,Female,181 Moreno Light Apt. 215,Tomahawk,0,500000,3,42831,Signature,Success
+106493,2.13,2/3/2019 21:15,kids_pets,454519,Rebecca,Conley,Female,181 Moreno Light Apt. 215,Tomahawk,0,500000,1,27506,Signature,Success
+106857,2.13,2/3/2019 23:59,kids_pets,358047,Rebecca,Conley,Female,181 Moreno Light Apt. 215,Tomahawk,0,500000,2,84565,Signature,Success
+107820,2.13,3/3/2019 9:43,gas_transport,465281,Rebecca,Conley,Female,181 Moreno Light Apt. 215,Tomahawk,0,500000,3,30249,Signature,Success
+274609,7.21,5/16/2019 1:16,grocery_pos,550350,Amber,Thornton,Female,840 Werner Lock Apt. 852,Campbell,1,750000,1,30008,Gold,Success
+274614,7.21,5/16/2019 1:20,gas_transport,550022,Amber,Thornton,Female,840 Werner Lock Apt. 852,Campbell,1,750000,2,30333,Gold,Success
+276198,7.21,5/16/2019 22:03,misc_net,550874,Amber,Thornton,Female,840 Werner Lock Apt. 852,Campbell,1,750000,3,30291,Gold,Success
+276213,7.21,5/16/2019 22:14,misc_net,550784,Amber,Thornton,Female,840 Werner Lock Apt. 852,Campbell,1,750000,4,30564,Gold,Success
+276368,7.21,5/16/2019 23:54,misc_net,550803,Amber,Thornton,Female,840 Werner Lock Apt. 852,Campbell,1,750000,5,30929,Gold,Success
+193880,7.23,4/10/2019 0:58,gas_transport,150023,Audrey,Gonzalez,Female,34180 Lopez Plaza,Fields Landing,1,400000,1,10848,Signature,Success
+193945,7.23,4/10/2019 2:00,grocery_net,150012,Audrey,Gonzalez,Female,34180 Lopez Plaza,Fields Landing,1,400000,2,11003,Signature,Success
+193947,7.23,4/10/2019 2:06,grocery_pos,150349,Audrey,Gonzalez,Female,34180 Lopez Plaza,Fields Landing,1,400000,3,11131,Signature,Success
+193973,7.23,4/10/2019 2:42,grocery_pos,150326,Audrey,Gonzalez,Female,34180 Lopez Plaza,Fields Landing,1,400000,4,10959,Signature,Success
+194479,7.23,4/10/2019 12:01,shopping_net,150974,Audrey,Gonzalez,Female,34180 Lopez Plaza,Fields Landing,1,400000,5,10388,Signature,Success
+195331,7.23,4/10/2019 22:08,grocery_pos,150337,Audrey,Gonzalez,Female,34180 Lopez Plaza,Fields Landing,1,400000,6,11050,Signature,Success
+195465,7.23,4/10/2019 23:38,misc_net,150847,Audrey,Gonzalez,Female,34180 Lopez Plaza,Fields Landing,1,400000,7,10996,Signature,Success
+195481,7.23,4/10/2019 23:47,grocery_pos,150340,Audrey,Gonzalez,Female,34180 Lopez Plaza,Fields Landing,1,400000,8,11030,Signature,Success
+195482,7.23,4/10/2019 23:47,shopping_pos,150873,Audrey,Gonzalez,Female,34180 Lopez Plaza,Fields Landing,1,400000,9,10937,Signature,Success
+45646,3.73,1/28/2019 2:16,grocery_pos,150295,Bobby,Smith,Male,3495 Williams Stream,San Diego,1,400000,1,10015,Signature,Success
+45769,3.73,1/28/2019 3:53,grocery_pos,150276,Bobby,Smith,Male,3495 Williams Stream,San Diego,1,400000,2,10296,Signature,Success
+45885,3.73,1/28/2019 5:19,grocery_pos,150306,Bobby,Smith,Male,3495 Williams Stream,San Diego,1,400000,3,10334,Signature,Success
+46121,3.73,1/28/2019 8:35,grocery_pos,150290,Bobby,Smith,Male,3495 Williams Stream,San Diego,1,400000,4,10664,Signature,Success
+47698,3.73,1/28/2019 22:40,shopping_net,151005,Bobby,Smith,Male,3495 Williams Stream,San Diego,1,400000,5,10008,Signature,Success
+47764,3.73,1/28/2019 23:14,shopping_net,151058,Bobby,Smith,Male,3495 Williams Stream,San Diego,1,400000,6,10301,Signature,Success
+47848,3.73,1/28/2019 23:48,shopping_net,151037,Bobby,Smith,Male,3495 Williams Stream,San Diego,1,400000,7,10327,Signature,Success
+195568,7.25,4/11/2019 1:14,grocery_pos,200297,Charles,Rodriguez,Male,240 Tracy Forges,Easton,1,500000,1,10623,Signature,Success
+195630,7.25,4/11/2019 2:18,grocery_pos,200279,Charles,Rodriguez,Male,240 Tracy Forges,Easton,1,500000,2,10346,Signature,Success
+195656,7.25,4/11/2019 2:36,grocery_pos,200322,Charles,Rodriguez,Male,240 Tracy Forges,Easton,1,500000,3,10337,Signature,Success
+196488,7.25,4/11/2019 14:25,shopping_net,201020,Charles,Rodriguez,Male,240 Tracy Forges,Easton,1,500000,4,10018,Signature,Success
+196546,7.25,4/11/2019 15:06,personal_care,200022,Charles,Rodriguez,Male,240 Tracy Forges,Easton,1,500000,5,10847,Signature,Success
+197268,7.25,4/11/2019 23:39,shopping_net,200970,Charles,Rodriguez,Male,240 Tracy Forges,Easton,1,500000,6,10897,Signature,Success
+55516,7.26,2/3/2019 0:26,grocery_pos,200301,Christopher,Luna,Male,242 Brian Mountain,Laredo,1,500000,1,10305,Signature,Success
+55615,7.26,2/3/2019 1:45,grocery_pos,200290,Christopher,Luna,Male,242 Brian Mountain,Laredo,1,500000,2,10301,Signature,Success
+45476,7.27,1/28/2019 0:07,grocery_pos,400296,David,Vasquez,Male,06539 Gregory Mountains Suite 029,Parker Dam,1,600000,1,30701,Gold,Success
+45605,7.27,1/28/2019 1:51,grocery_pos,400294,David,Vasquez,Male,06539 Gregory Mountains Suite 029,Parker Dam,1,600000,2,30303,Gold,Success
+45738,7.27,1/28/2019 3:29,grocery_pos,400321,David,Vasquez,Male,06539 Gregory Mountains Suite 029,Parker Dam,1,600000,3,30749,Gold,Success
+47720,7.27,1/28/2019 22:54,grocery_pos,400287,David,Vasquez,Male,06539 Gregory Mountains Suite 029,Parker Dam,1,600000,4,31006,Gold,Success
+157847,7.28,3/25/2019 3:11,grocery_pos,500297,Debra,Becker,Female,384 Jonathan Hills,Iselin,1,700000,1,31104,Gold,Success
+14241,7.29,1/8/2019 22:36,shopping_net,501131,Eric,Patel,Male,69459 Rachel Prairie Apt. 850,Ironton,1,700000,1,31044,Gold,Success
+14270,7.29,1/8/2019 22:48,shopping_net,500959,Eric,Patel,Male,69459 Rachel Prairie Apt. 850,Ironton,1,700000,2,30937,Gold,Success
+15508,7.29,1/9/2019 22:58,travel,500009,Eric,Patel,Male,69459 Rachel Prairie Apt. 850,Ironton,1,700000,1,30918,Gold,Success
+19660,7.53,1/12/2019 23:09,misc_net,150784,Guy,Thompson,Male,5812 Ramos Oval Suite 598,Ravenna,1,400000,1,10016,Signature,Success
+21693,7.53,1/13/2019 23:57,shopping_net,151065,Guy,Thompson,Male,5812 Ramos Oval Suite 598,Ravenna,1,400000,2,10277,Signature,Success
+244902,6.3,5/3/2019 1:21,grocery_net,600014,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,1,900000,1,51127,Platinum,Success
+245656,6.3,5/3/2019 12:45,shopping_net,601022,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,1,900000,2,50276,Platinum,Success
+246838,6.3,5/4/2019 1:50,grocery_pos,600338,Heather,Stanton,Female,445 Jerry Lights Apt. 081,Republic,1,900000,1,50722,Platinum,Success
+9130,7.31,1/6/2019 18:39,shopping_net,150855,Helen,Campbell,Female,182 Sergio Summit Apt. 129,Browning,1,400000,1,10010,Signature,Success
+9637,7.31,1/6/2019 23:33,shopping_net,150909,Helen,Campbell,Female,182 Sergio Summit Apt. 129,Browning,1,400000,2,10835,Signature,Success
+54100,7.32,2/2/2019 2:04,grocery_pos,150327,Jacob,Snow,Male,93121 Zavala Extensions,Madisonville,1,400000,1,10095,Signature,Success
+54117,7.32,2/2/2019 2:20,gas_transport,150014,Jacob,Snow,Male,93121 Zavala Extensions,Madisonville,1,400000,2,10009,Signature,Success
+54141,7.32,2/2/2019 2:51,grocery_pos,150310,Jacob,Snow,Male,93121 Zavala Extensions,Madisonville,1,400000,3,11148,Signature,Success
+57122,7.32,2/3/2019 20:26,shopping_net,150970,Jacob,Snow,Male,93121 Zavala Extensions,Madisonville,1,400000,1,10945,Signature,Success
+57281,7.32,2/3/2019 22:04,shopping_net,151052,Jacob,Snow,Male,93121 Zavala Extensions,Madisonville,1,400000,2,10018,Signature,Success
+57309,7.32,2/3/2019 22:21,shopping_net,150939,Jacob,Snow,Male,93121 Zavala Extensions,Madisonville,1,400000,3,10325,Signature,Success
+57434,7.32,2/3/2019 23:26,shopping_net,150897,Jacob,Snow,Male,93121 Zavala Extensions,Madisonville,1,400000,4,10008,Signature,Success
+57448,7.32,2/3/2019 23:35,shopping_pos,150802,Jacob,Snow,Male,93121 Zavala Extensions,Madisonville,1,400000,5,10311,Signature,Success
+54010,7.33,2/2/2019 0:16,misc_pos,150834,Janet,Turner,Female,0925 Lang Extensions,Shields,1,400000,1,11161,Signature,Success
+54092,7.33,2/2/2019 1:57,misc_net,150831,Janet,Turner,Female,0925 Lang Extensions,Shields,1,400000,2,10685,Signature,Success
+54169,7.33,2/2/2019 3:26,shopping_pos,151025,Janet,Turner,Female,0925 Lang Extensions,Shields,1,400000,3,10344,Signature,Success
+55491,7.33,2/3/2019 0:06,shopping_net,151103,Janet,Turner,Female,0925 Lang Extensions,Shields,1,400000,1,10831,Signature,Success
+55616,7.33,2/3/2019 1:46,shopping_pos,150922,Janet,Turner,Female,0925 Lang Extensions,Shields,1,400000,2,10299,Signature,Success
+55676,7.33,2/3/2019 2:38,shopping_net,150969,Janet,Turner,Female,0925 Lang Extensions,Shields,1,400000,3,10353,Signature,Success
+55678,7.33,2/3/2019 2:38,shopping_pos,151034,Janet,Turner,Female,0925 Lang Extensions,Shields,1,400000,4,10846,Signature,Success
+55752,7.33,2/3/2019 3:50,shopping_pos,150905,Janet,Turner,Female,0925 Lang Extensions,Shields,1,400000,5,10334,Signature,Success
+57371,7.33,2/3/2019 22:50,health_fitness,150018,Janet,Turner,Female,0925 Lang Extensions,Shields,1,400000,6,10008,Signature,Success
+353503,7.34,6/15/2019 0:52,misc_net,150769,Jared,Velazquez,Male,01479 Murray Circle,Matawan,1,400000,1,11008,Signature,Success
+272969,7.35,5/15/2019 1:45,grocery_pos,200334,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,1,10009,Signature,Success
+273719,7.35,5/15/2019 14:18,shopping_pos,201076,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,2,10011,Signature,Success
+274374,7.35,5/15/2019 22:09,grocery_pos,200307,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,3,10830,Signature,Success
+274420,7.35,5/15/2019 22:41,grocery_pos,200259,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,4,10021,Signature,Success
+274526,7.35,5/15/2019 23:59,shopping_net,201131,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,5,10019,Signature,Success
+275628,7.35,5/16/2019 16:09,misc_net,200869,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,1,10992,Signature,Success
+276035,7.35,5/16/2019 20:08,shopping_net,200964,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,2,10882,Signature,Success
+276243,7.35,5/16/2019 22:34,shopping_net,201000,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,3,10024,Signature,Success
+276281,7.35,5/16/2019 23:01,grocery_pos,200288,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,4,11001,Signature,Success
+276315,7.35,5/16/2019 23:25,misc_net,200823,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,5,10011,Signature,Success
+276323,7.35,5/16/2019 23:28,shopping_pos,200989,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,6,10007,Signature,Success
+276371,7.35,5/16/2019 23:55,shopping_net,201016,Jasmine,Foster,Female,954 White Alley Apt. 251,Phil Campbell,1,500000,7,10288,Signature,Success
+2449,7.36,1/2/2019 1:06,grocery_pos,200281,Jason,Murphy,Male,542 Steve Curve Suite 011,Collettsville,1,500000,1,10298,Signature,Success
+15451,7.37,1/9/2019 22:00,shopping_pos,151104,Jennifer,Carrillo,Female,334 Adam Mountains Apt. 868,Manquin,1,400000,1,10368,Signature,Success
+15454,7.37,1/9/2019 22:02,shopping_net,150937,Jennifer,Carrillo,Female,334 Adam Mountains Apt. 868,Manquin,1,400000,2,10328,Signature,Success
+15471,7.37,1/9/2019 22:23,shopping_net,150918,Jennifer,Carrillo,Female,334 Adam Mountains Apt. 868,Manquin,1,400000,3,10303,Signature,Success
+15472,7.37,1/9/2019 22:23,travel,150010,Jennifer,Carrillo,Female,334 Adam Mountains Apt. 868,Manquin,1,400000,4,10644,Signature,Success
+15517,7.37,1/9/2019 23:04,shopping_pos,151148,Jennifer,Carrillo,Female,334 Adam Mountains Apt. 868,Manquin,1,400000,5,10120,Signature,Success
+157624,7.38,3/25/2019 0:51,gas_transport,600008,Joe,Allen,Male,368 Rollins Fort Apt. 076,Aurora,1,900000,1,51081,Platinum,Success
+157849,7.38,3/25/2019 3:11,grocery_pos,600315,Joe,Allen,Male,368 Rollins Fort Apt. 076,Aurora,1,900000,2,50843,Platinum,Success
+157926,7.38,3/25/2019 3:55,gas_transport,600009,Joe,Allen,Male,368 Rollins Fort Apt. 076,Aurora,1,900000,3,50020,Platinum,Success
+55680,7.39,2/3/2019 2:39,grocery_pos,600293,Joseph,Davis,Male,941 Adam Stravenue,Nazareth,1,900000,1,50776,Platinum,Success
+57328,7.39,2/3/2019 22:29,misc_net,600648,Joseph,Davis,Male,941 Adam Stravenue,Nazareth,1,900000,2,50728,Platinum,Success
+57340,7.39,2/3/2019 22:35,grocery_pos,600287,Joseph,Davis,Male,941 Adam Stravenue,Nazareth,1,900000,3,50784,Platinum,Success
+57420,7.39,2/3/2019 23:19,shopping_net,601146,Joseph,Davis,Male,941 Adam Stravenue,Nazareth,1,900000,4,50264,Platinum,Success
+45752,7.4,1/28/2019 3:39,grocery_pos,600314,Judith,Moss,Female,46297 Benjamin Plains Suite 703,Washington Court House,1,900000,1,50278,Platinum,Success
+46626,7.4,1/28/2019 14:06,shopping_pos,601004,Judith,Moss,Female,46297 Benjamin Plains Suite 703,Washington Court House,1,900000,2,50696,Platinum,Success
+47697,7.4,1/28/2019 22:39,personal_care,600021,Judith,Moss,Female,46297 Benjamin Plains Suite 703,Washington Court House,1,900000,3,50119,Platinum,Success
+47801,7.4,1/28/2019 23:30,misc_net,600658,Judith,Moss,Female,46297 Benjamin Plains Suite 703,Washington Court House,1,900000,4,50741,Platinum,Success
+157738,7.41,3/25/2019 1:57,gas_transport,600010,Karen,Gordon,Female,543 Ware Path Apt. 593,Utica,1,900000,1,51116,Platinum,Success
+158465,7.41,3/25/2019 9:04,shopping_net,600955,Karen,Gordon,Female,543 Ware Path Apt. 593,Utica,1,900000,2,50320,Platinum,Success
+435675,7.42,7/14/2019 1:12,grocery_net,600013,Katelyn,Wise,Female,674 Maureen Summit Apt. 276,Scotts Mills,1,900000,1,50952,Platinum,Success
+351187,7.43,6/14/2019 2:09,grocery_pos,550263,Marissa,Clark,Female,2677 Byrd Village Suite 035,San Jose,1,750000,1,31060,Gold,Success
+351225,7.43,6/14/2019 2:38,grocery_pos,550300,Marissa,Clark,Female,2677 Byrd Village Suite 035,San Jose,1,750000,2,30007,Gold,Success
+351279,7.43,6/14/2019 3:26,misc_net,550819,Marissa,Clark,Female,2677 Byrd Village Suite 035,San Jose,1,750000,3,30276,Gold,Success
+351330,7.43,6/14/2019 3:54,grocery_pos,550298,Marissa,Clark,Female,2677 Byrd Village Suite 035,San Jose,1,750000,4,30336,Gold,Success
+353522,7.43,6/15/2019 1:06,grocery_pos,550288,Marissa,Clark,Female,2677 Byrd Village Suite 035,San Jose,1,750000,1,30303,Gold,Success
+353619,7.43,6/15/2019 1:51,misc_net,550780,Marissa,Clark,Female,2677 Byrd Village Suite 035,San Jose,1,750000,2,30308,Gold,Success
+10057,7.44,1/7/2019 4:34,grocery_pos,400300,Mark,Allen,Male,25360 Mcgee Forge,De Queen,1,600000,1,30019,Gold,Success
+14297,7.44,1/8/2019 23:05,entertainment,400388,Mark,Allen,Male,25360 Mcgee Forge,De Queen,1,600000,1,31033,Gold,Success
+351029,7.45,6/14/2019 0:17,grocery_pos,500313,Mckenzie,Brooks,Female,3872 Matthew Skyway,Paris,1,700000,1,30994,Gold,Success
+351131,7.45,6/14/2019 1:21,grocery_net,500017,Mckenzie,Brooks,Female,3872 Matthew Skyway,Paris,1,700000,2,30859,Gold,Success
+353079,7.45,6/14/2019 21:40,shopping_net,500832,Mckenzie,Brooks,Female,3872 Matthew Skyway,Paris,1,700000,3,30919,Gold,Success
+353194,7.45,6/14/2019 22:35,shopping_net,500903,Mckenzie,Brooks,Female,3872 Matthew Skyway,Paris,1,700000,4,31062,Gold,Success
+353258,7.45,6/14/2019 23:04,shopping_net,501035,Mckenzie,Brooks,Female,3872 Matthew Skyway,Paris,1,700000,5,30770,Gold,Success
+353328,7.45,6/14/2019 23:29,personal_care,500053,Mckenzie,Brooks,Female,3872 Matthew Skyway,Paris,1,700000,6,30728,Gold,Success
+353342,7.45,6/14/2019 23:34,misc_net,500733,Mckenzie,Brooks,Female,3872 Matthew Skyway,Paris,1,700000,7,30025,Gold,Success
+2472,7.46,1/2/2019 1:47,gas_transport,550011,Misty,Hart,Female,27954 Hall Mill Suite 575,San Antonio,1,750000,1,30816,Gold,Success
+2523,7.46,1/2/2019 3:05,grocery_pos,550276,Misty,Hart,Female,27954 Hall Mill Suite 575,San Antonio,1,750000,2,30023,Gold,Success
+3600,7.46,1/3/2019 1:35,grocery_pos,550332,Misty,Hart,Female,27954 Hall Mill Suite 575,San Antonio,1,750000,1,30976,Gold,Success
+272915,7.47,5/15/2019 0:57,gas_transport,400011,Rachel,Villarreal,Female,250 Carrie Throughway,University,1,600000,1,30510,Gold,Success
+272949,7.47,5/15/2019 1:25,grocery_pos,400280,Rachel,Villarreal,Female,250 Carrie Throughway,University,1,600000,2,30307,Gold,Success
+272988,7.47,5/15/2019 2:02,misc_net,400750,Rachel,Villarreal,Female,250 Carrie Throughway,University,1,600000,3,30020,Gold,Success
+273012,7.47,5/15/2019 2:28,gas_transport,400006,Rachel,Villarreal,Female,250 Carrie Throughway,University,1,600000,4,30224,Gold,Success
+273646,7.47,5/15/2019 13:31,shopping_net,401018,Rachel,Villarreal,Female,250 Carrie Throughway,University,1,600000,5,30790,Gold,Success
+274173,7.47,5/15/2019 19:36,shopping_net,400984,Rachel,Villarreal,Female,250 Carrie Throughway,University,1,600000,6,30870,Gold,Success
+54066,7.49,2/2/2019 1:23,misc_net,400716,Sarah,Cross,Female,273 Phillip Throughway,Bigelow,1,600000,1,30714,Gold,Success
+54133,7.49,2/2/2019 2:44,shopping_net,401097,Sarah,Cross,Female,273 Phillip Throughway,Bigelow,1,600000,2,31065,Gold,Success
+455278,7.5,7/21/2019 2:13,grocery_pos,500289,Shannon,Williams,Female,9345 Spencer Junctions Suite 183,Alpharetta,1,700000,1,30813,Gold,Success
+455398,7.5,7/21/2019 3:00,grocery_pos,500319,Shannon,Williams,Female,9345 Spencer Junctions Suite 183,Alpharetta,1,700000,2,30417,Gold,Success
+274859,7.51,5/16/2019 5:48,gas_transport,550011,Sophia,Dickson,Female,9047 Rodriguez Turnpike,Gibsonville,1,750000,1,30306,Gold,Success
+276377,7.51,5/16/2019 23:57,shopping_pos,550823,Sophia,Dickson,Female,9047 Rodriguez Turnpike,Gibsonville,1,750000,2,30012,Gold,Success
+276383,7.51,5/16/2019 23:59,shopping_net,550945,Sophia,Dickson,Female,9047 Rodriguez Turnpike,Gibsonville,1,750000,3,30324,Gold,Success
+54163,7.52,2/2/2019 3:19,gas_transport,400006,Stanley,Dickson,Male,078 Alex Fields,Smock,1,600000,1,30325,Gold,Success
+157711,7.54,3/25/2019 1:44,grocery_pos,200301,Sydney,Morales,Female,755 Moses Harbor,Coulee Dam,1,500000,1,10008,Signature,Success
+157719,7.54,3/25/2019 1:48,grocery_pos,200282,Sydney,Morales,Female,755 Moses Harbor,Coulee Dam,1,500000,2,10328,Signature,Success
+157936,7.54,3/25/2019 3:58,gas_transport,200007,Sydney,Morales,Female,755 Moses Harbor,Coulee Dam,1,500000,3,10013,Signature,Success
+18410,7.48,1/12/2019 3:24,grocery_pos,600368,Tina,Lawrence,Female,12444 Jacob Pines,Nobleboro,1,900000,1,50916,Platinum,Success
