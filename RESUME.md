@@ -86,10 +86,10 @@ Developed a platform-agnostic JavaScript router used in Oark Library, [GitHub](h
 - Languages: *JavaScript, C#, Python, Kotlin, Java*
 - Frontend: *HTML5, SASS, CSS3, ReactJS, VueJS*
 - Backend: *ASP.NET MVC, NodeJS, Flask*
-- Databases: *MSSQL, MySQL, ElasticSearch, MongoDB, KustoQL*
+- Databases: *MSSQL, MySQL, ElasticSearch, MongoDB, KustoQL, Azure Table*
 - Cloud: *Azure, AWS*
 - Mobile: *Android Development*
-- Architecture: *Monolithic, Serverless*
+- Architectures: *Monolithic, Serverless, GraphQL, RestAPI*
 
 ## [Edu]{.char-color}cation
 - Master of Science in Data Science and Analytics, *Strathmore University, Kenya*
