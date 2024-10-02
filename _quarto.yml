@@ -23,6 +23,8 @@ format:
       light: cosmo
       dark: darkly
     css: styles.css
+    link-external-newwindow: true
+    canonical-url: true
   pdf:
     documentclass: article
     papersize: a4

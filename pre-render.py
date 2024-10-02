@@ -34,7 +34,11 @@ def pre_render():
                         {
                             "text": secondary_email,
                             "href": f"mailto:{secondary_email}"
-                        }
+                        },
+                        {
+                            "text": "<i>Create your resume</i>",
+                            "href": "https://toknow.ai/posts/quarto-resume-template/"
+                        },
                     ]
                 },
             },
